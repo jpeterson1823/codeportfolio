@@ -1,0 +1,9 @@
+name: CustomTP
+author: TheRealInvisa
+version: 0.1
+main: dt100s.sytes.net.CustomTP
+api-version: 1.13
+commands:
+  ctp:
+    description: allows player to teleport to one of 3 previously set locations.
+    usage: /ctp location

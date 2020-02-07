@@ -1,0 +1,9 @@
+name: CustomStuffs
+author: TheRealInvisa
+version: 0.2
+main: dt100s.sytes.net.CustomStuffs
+api-version: 1.13
+commands:
+  wp:
+    description: allows player to teleport to one of 3 previously set locations.
+    usage: /wp location
