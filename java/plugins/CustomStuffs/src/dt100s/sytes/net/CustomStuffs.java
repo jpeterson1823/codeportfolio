@@ -11,11 +11,12 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class CustomStuffs extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
+        this.getServer().getPluginManager().registerEvents(this,this);
         this.getCommand("wp").setExecutor(new Teleport());
     }
 
     @EventHandler
-    public void onPlayerJoin(PlayerJoinEvent e) {
+    public void onJoin(PlayerJoinEvent e) {
         Player player = e.getPlayer();
         e.setJoinMessage(ChatColor.LIGHT_PURPLE + "Welcome! You can now use waypoints! Type /wp help for more info.");
         if (player.getName().equals("DolphinFTW")) {
