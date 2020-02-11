@@ -54,7 +54,6 @@ public class Teleport implements CommandExecutor {
                 }
                 else if (args[0].equals("remove")) {
                     manager.removePlace(args[1]);
-                    player.sendMessage("Removed location \""+args[1]+"\".");
                 }
                 else player.sendMessage(ChatColor.RED+"Unknown argument. Use /ctp help for more.");
             }
