@@ -24,29 +24,31 @@ public class Teleport implements CommandExecutor {
                             ChatColor.GOLD +
                             "add:" +
                             ChatColor.GOLD +
-                            "       Add new waypoint to list\n" +
-                            "               required argument: waypoint name\n" +
+                            " Add new waypoint to list\n" +
                             ChatColor.GREEN +
                             "remove:" +
                             ChatColor.GOLD +
-                            "    Remove saved waypoint from list.\n" +
-                            "               required argument: waypoint name\n" +
+                            " Remove saved waypoint from list.\n" +
                             ChatColor.GREEN +
                             "list:" +
                             ChatColor.GOLD +
-                            "      List all currently saved waypoints." +
-                            "               required argument: none\n" +
+                            "List all currently saved waypoints." +
                             ChatColor.GREEN +
                             "help:" +
                             ChatColor.GOLD +
-                            "      This menu. Pretty sure you've figured that one out by now." +
-                            "               required argument: i think you know.");
+                            "      This menu.");
                 }
+                else if (loc == null) player.sendMessage("Location is not in your list!");
                 else if (loc.getY() != -1.0) {
-                    player.teleport(new Location(player.getWorld(), loc.getX(), loc.getY(), loc.getZ()));
-                    player.sendMessage("Teleporting to \""+args[0]+"\"...");
+                    if (player.getWorld().getName() == loc.getWorld().getName()) {
+                        player.teleport(new Location(player.getWorld(), loc.getX(), loc.getY(), loc.getZ()));
+                        player.sendMessage("Teleporting to \""+args[0]+"\"...");
+                    }
+                    else {
+                        player.sendMessage(ChatColor.RED+"You must be in the same dimension as your waypoint to teleport!");
+                    }
                 }
-                else player.sendMessage(ChatColor.RED+"Unknown argument. Use /ctp help for more.");
+                else player.sendMessage(ChatColor.RED+"Unknown argument. Use /wp help for more.");
             }
             else if (args.length == 2) {
                 if (args[0].equals("add")) {
@@ -55,9 +57,9 @@ public class Teleport implements CommandExecutor {
                 else if (args[0].equals("remove")) {
                     manager.removePlace(args[1]);
                 }
-                else player.sendMessage(ChatColor.RED+"Unknown argument. Use /ctp help for more.");
+                else player.sendMessage(ChatColor.RED+"Unknown argument. Use /wp help for more.");
             }
-            else player.sendMessage(ChatColor.RED+"Incorrect number of arguments. Use /ctp help for more.");
+            else player.sendMessage(ChatColor.RED+"Incorrect number of arguments. Use /wp help for more.");
         }
         else sender.sendMessage(ChatColor.RED+"Sender must be a player!");
         return true;

@@ -15,7 +15,10 @@ public class Smite implements CommandExecutor {
         if (args.length == 1){
             for (Player p : Bukkit.getOnlinePlayers()) {
                 if (p.getName().equals(args[0])) {
-
+                    p.getWorld().strikeLightningEffect(p.getLocation());
+                    p.setHealth(0.0);
+                    Bukkit.broadcast(ChatColor.BLUE+p.getName()+" was struck down by God.","@a");
+                    break;
                 }
             }
         }
