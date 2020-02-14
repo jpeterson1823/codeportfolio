@@ -5,14 +5,19 @@ import org.bukkit.Location;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
+import org.bukkit.command.TabCompleter;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
 
-public class Teleport implements CommandExecutor {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Teleport implements CommandExecutor, TabCompleter {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String args[]) {
         if (sender instanceof Player) {
             Player player = (Player)sender;
-            DataManager manager = new DataManager(player);
+            TPManager manager = new TPManager(player);
 
             if (args.length == 1) {
                 Location loc = manager.getLoc(args[0]);
@@ -63,5 +68,22 @@ public class Teleport implements CommandExecutor {
         }
         else sender.sendMessage(ChatColor.RED+"Sender must be a player!");
         return true;
+    }
+
+    public List<String> onTabComplete(CommandSender sender, Command command, String label, String[] args) {
+        if (command.getName().equals("wp") && sender instanceof Player) {
+            if (args.length == 1) {
+                ArrayList<String> list = new ArrayList<>();
+                list.add("add");
+                list.add("remove");
+                list.add("list");
+                return list;
+            }
+            else if (args.length == 2 && (args[0].equals("add") || args[0].equals("remove"))) {
+                return new TPManager((Player)sender).getLocationNames();
+            }
+            else return new ArrayList<>();
+        }
+        return null;
     }
 }

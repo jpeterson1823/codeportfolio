@@ -7,3 +7,6 @@ commands:
   wp:
     description: allows player to teleport to one of 3 previously set locations.
     usage: /wp location
+  smite:
+      description: allows ops to smite players with the power of Zeus.
+      usage: /smite player
