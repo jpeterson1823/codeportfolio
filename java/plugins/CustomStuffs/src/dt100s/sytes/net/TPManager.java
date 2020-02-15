@@ -68,6 +68,7 @@ public class TPManager {
             wpNames.add(name);
         }
         return wpNames;
+
     }
 
     // Adds waypoint to HashMap<String, Location>, then writes the necessary data to the player data file.

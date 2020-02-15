@@ -11,6 +11,10 @@ public class Smite implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String list, String[] args) {
         if (args.length == 1){
+            if (!sender.isOp()) {
+                sender.sendMessage(ChatColor.RED+"You do not possess this power, mortal.");
+                return true;
+            }
             for (Player p : Bukkit.getOnlinePlayers()) {
                 if (p.getName().equals(args[0])) {
                     p.getWorld().strikeLightningEffect(p.getLocation());
@@ -21,6 +25,7 @@ public class Smite implements CommandExecutor {
             }
             sender.sendMessage("Could not locate player. Are they online?");
         }
+        else sender.sendMessage("Usage: /smite player");
         return true;
     }
 

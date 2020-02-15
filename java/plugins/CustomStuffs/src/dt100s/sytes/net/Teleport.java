@@ -7,7 +7,6 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
 import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,13 +16,16 @@ public class Teleport implements CommandExecutor, TabCompleter {
     public boolean onCommand(CommandSender sender, Command command, String label, String args[]) {
         if (sender instanceof Player) {
             Player player = (Player)sender;
-            TPManager manager = new TPManager(player);
+            TPManager wpManager = new TPManager(player);
+            LevelManager levelManager = new LevelManager(player);
 
             if (args.length == 1) {
-                Location loc = manager.getLoc(args[0]);
+                Location loc = wpManager.getLoc(args[0]);
                 if (args[0].equals("list")) {
-                    player.sendMessage("Locations: "+manager.getList());
+                    player.sendMessage("Locations: "+wpManager.getList());
                 }
+                else if (args[0].equals("level")) player.sendMessage("Current Level: "+levelManager.getLevel());
+                else if (args[0].equals("levelup")) levelManager.levelUp(player);
                 else if (args[0].equals("help")) {
                     player.sendMessage("/wp <add, remove, list, help> [waypoint_name]\n" +
                             ChatColor.GOLD +
@@ -38,6 +40,14 @@ public class Teleport implements CommandExecutor, TabCompleter {
                             "list:" +
                             ChatColor.GOLD +
                             "List all currently saved waypoints." +
+                            ChatColor.GREEN +
+                            "level:" +
+                            ChatColor.GOLD +
+                            "Show current WPLevel." +
+                            ChatColor.GREEN +
+                            "levelup:" +
+                            ChatColor.GOLD +
+                            "Level up WPLevel." +
                             ChatColor.GREEN +
                             "help:" +
                             ChatColor.GOLD +
@@ -57,10 +67,10 @@ public class Teleport implements CommandExecutor, TabCompleter {
             }
             else if (args.length == 2) {
                 if (args[0].equals("add")) {
-                    manager.addPlace(args[1]);
+                    wpManager.addPlace(args[1]);
                 }
                 else if (args[0].equals("remove")) {
-                    manager.removePlace(args[1]);
+                    wpManager.removePlace(args[1]);
                 }
                 else player.sendMessage(ChatColor.RED+"Unknown argument. Use /wp help for more.");
             }
@@ -77,9 +87,11 @@ public class Teleport implements CommandExecutor, TabCompleter {
                 list.add("add");
                 list.add("remove");
                 list.add("list");
+                list.add("level");
+                list.add("levelup");
                 return list;
             }
-            else if (args.length == 2 && (args[0].equals("add") || args[0].equals("remove"))) {
+            else if (args.length == 2 && args[0].equals("remove")) {
                 return new TPManager((Player)sender).getLocationNames();
             }
             else return new ArrayList<>();
