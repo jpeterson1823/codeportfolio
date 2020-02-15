@@ -15,12 +15,14 @@ public class TPManager {
     private Location loc;
     private File f;
     private boolean atMax = false;
+    private int wplevel;
 
     private Player player;
 
-    public TPManager(Player player) {
+    public TPManager(Player player, int wplevel) {
         // Create player data file if non-existent as well as needed directories.
         this.player = player;
+        this.wplevel = wplevel;
         try {
             new File(PATH.substring(0,PATH.length()-1)).mkdirs();
             f = new File(PATH+player.getName()+".txt");
@@ -39,7 +41,7 @@ public class TPManager {
                 fileData.add(line);
                 count++;
             }
-            if (count >= 3) atMax = true;
+            if (count >= 3+wplevel) atMax = true;
         } catch (IOException e) {
             e.printStackTrace();
             player.sendMessage("Failed to get file data.");
@@ -73,7 +75,8 @@ public class TPManager {
 
     // Adds waypoint to HashMap<String, Location>, then writes the necessary data to the player data file.
     public void addPlace(String name) {
-        if (playerData.size() < 3 && !atMax) {
+        player.sendMessage("Regestered level: "+wplevel);
+        if (playerData.size() < (3+wplevel) && !atMax) {
             playerData.put(name, player.getLocation());
             try {
                 Location playerloc = player.getLocation();
@@ -83,7 +86,7 @@ public class TPManager {
             }catch (Exception e){e.printStackTrace();}
             player.sendMessage("Added \""+name+"\" to list.");
         }
-        else player.sendMessage(ChatColor.RED+"Cannot add location, you have hit the maximum of 3 waypoints!");
+        else player.sendMessage(ChatColor.RED+"Cannot add location, you have hit the maximum of "+(3+wplevel)+" waypoints!");
     }
 
     // Removes waypoint from HashMap<String, Location>, then writes the changes to the player data file.
@@ -112,5 +115,13 @@ public class TPManager {
             return list;
         }
         else return "You have no saved waypoints. Use /wp add <name> to add one.";
+    }
+
+    public void setWplevel(int wplevel) {
+        this.wplevel = wplevel;
+    }
+
+    public int getWplevel() {
+        return this.wplevel;
     }
 }

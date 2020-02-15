@@ -56,7 +56,7 @@ public class LevelManager {
         return true;
     }
 
-    private int getLevel(Player player) {
+    public int getLevel(Player player) {
         try {
             BufferedReader reader = new BufferedReader(new FileReader(f));
             String line;
@@ -75,10 +75,6 @@ public class LevelManager {
             e.printStackTrace();
             return -1;
         }
-    }
-
-    public int getLevel() {
-        return playerLevel;
     }
 
     public void levelUp(Player player) {

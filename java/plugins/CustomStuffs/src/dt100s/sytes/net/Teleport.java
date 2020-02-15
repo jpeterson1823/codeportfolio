@@ -16,16 +16,19 @@ public class Teleport implements CommandExecutor, TabCompleter {
     public boolean onCommand(CommandSender sender, Command command, String label, String args[]) {
         if (sender instanceof Player) {
             Player player = (Player)sender;
-            TPManager wpManager = new TPManager(player);
             LevelManager levelManager = new LevelManager(player);
+            TPManager wpManager = new TPManager(player, levelManager.getLevel(player));
 
             if (args.length == 1) {
                 Location loc = wpManager.getLoc(args[0]);
                 if (args[0].equals("list")) {
                     player.sendMessage("Locations: "+wpManager.getList());
                 }
-                else if (args[0].equals("level")) player.sendMessage("Current Level: "+levelManager.getLevel());
-                else if (args[0].equals("levelup")) levelManager.levelUp(player);
+                else if (args[0].equals("level")) player.sendMessage("Current Level: "+levelManager.getLevel(player));
+                else if (args[0].equals("levelup")) {
+                    levelManager.levelUp(player);
+                    wpManager.setWplevel(wpManager.getWplevel()+1);
+                }
                 else if (args[0].equals("help")) {
                     player.sendMessage("/wp <add, remove, list, help> [waypoint_name]\n" +
                             ChatColor.GOLD +
@@ -92,7 +95,7 @@ public class Teleport implements CommandExecutor, TabCompleter {
                 return list;
             }
             else if (args.length == 2 && args[0].equals("remove")) {
-                return new TPManager((Player)sender).getLocationNames();
+                return new TPManager((Player)sender, new LevelManager((Player)sender).getLevel((Player)sender)).getLocationNames();
             }
             else return new ArrayList<>();
         }
