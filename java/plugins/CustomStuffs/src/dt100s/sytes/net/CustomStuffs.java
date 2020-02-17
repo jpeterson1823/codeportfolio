@@ -14,6 +14,7 @@ public class CustomStuffs extends JavaPlugin implements Listener{
         this.getServer().getPluginManager().registerEvents(this,this);
         this.getCommand("wp").setExecutor(new Teleport());
         this.getCommand("smite").setExecutor(new Smite());
+        this.getCommand("store").setExecutor(new CobbleStore());
     }
 
     @EventHandler
@@ -27,7 +28,8 @@ public class CustomStuffs extends JavaPlugin implements Listener{
                     p.sendMessage(ChatColor.BOLD + "I think you may owe someone some money...");
                 else p.sendMessage(ChatColor.RED + "DolphinFTW may owe someone some money...");
             }
-        } else if (player.getName().equals("TheRealInvisa"))
+        }
+        else if (player.getName().equals("TheRealInvisa"))
             player.setDisplayName("-={ " + ChatColor.GOLD + "Owner" + ChatColor.RESET + " }=- " + ChatColor.RED + "TheRealInvisa" + ChatColor.RESET);
         else if (player.getName().equals("Tazax"))
             player.setDisplayName(ChatColor.BOLD + "|" + ChatColor.LIGHT_PURPLE + "MOB BOSS" + ChatColor.WHITE + "|" + ChatColor.RESET + "Tazax");
