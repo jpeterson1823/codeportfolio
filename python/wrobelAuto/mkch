@@ -1,0 +1,193 @@
+#!/usr/bin/env python3
+#CreateNewChapterPage.py - creates new HTML formated chapter page for wrobelwebsite.github.io.
+from PIL import Image
+import os, shutil, re, argparse, sys
+
+HTML_DIR = "/home/john/Documents/GitHub/wrobelwebsite.github.io/chpages/"
+
+parser = argparse.ArgumentParser(description='Creates HTML Page for Wrobel Website.')
+parser.add_argument('-dev', action='store_true')
+parser.add_argument('-pI', action='store_true')
+args = parser.parse_args()
+
+regexMatchedString = []
+
+htmlp1 = '''<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../style.css">
+        <script src="../a.js"></script>
+
+        <title>Wrobel Biololgy II Class Book</title>
+    </head>
+
+    <body onload="init();">
+        <div class="navbar">
+            <a class="home" href="../home.html">Home</a>
+            <div class="ch">
+                <button class="chbtn">Sections<i class="fa fa-caret-down"></i></button>
+                <div class="ch-content">
+'''
+htmlp2 = '''                </div>
+            </div>
+        </div>
+        <div class="ch15" oncontextmenu="return false;">
+'''
+htmlp3 = '''        </div>
+    </body>
+</html>
+'''
+
+
+'''
+Creates a PageData object with its attributes.
+
+Attributes:
+    has_section (boolean):   True when section is found, False otherwise.
+    text (string):          Contains the text found in the image.
+    path (string):          Path to image
+    name (string):          Name of file.
+'''
+class PageData:         
+    def __init__(self, path):
+        self.path = path
+        self.name = re.compile('Chapter\d*BIO-\d*\.png').search(path).group(0)
+        self.page_num = re.compile('BIO-\d*').search(self.name).group(0)[4:]
+    
+    def get_path(self):
+        return self.path
+    
+    def get_page_num(self):
+        if self.page_num[0] == '0':
+            return int(self.page_num[1:])
+        else:
+            return int(self.page_num)
+
+
+'''
+Creates a list of PageData objects found in a folder.
+
+Attributes:
+    page_list (list):        List of PageData objects found in a folder.
+    path (string):          Path to the folder.
+    ch_num (int):            Chapter number
+
+TODO:
+    Loading Bar:            Should look like this:
+                    [                                        ]
+                                    \d*%
+'''
+class Folder:
+    def __init__(self, path):
+        self.path = path
+        self.name = re.compile('Ch\d*').search(path)[0]
+
+        pages = len(os.listdir(path))
+        temp = []
+        for file in os.listdir(path):
+            if file[0:1] != '.':
+                os.sys.stdout.flush()
+                temp.append(PageData(path+os.sep+file))
+        
+        self.page_list = temp
+        self.organize(self.page_list)
+        self.ch_num = self.name[2:]
+
+        if args.pI:
+            self.print_info()
+
+    def get_path(self):
+        return self.path
+
+    def get_page_list(self):
+        return self.page_list
+
+    def get_ch_num(self):
+        return self.ch_num
+    
+    def organize(self, arr):
+        for i in range(1, len(arr)): 
+            key = arr[i] 
+
+            # Move elements of arr[0..i-1], that are 
+            # greater than key, to one position ahead 
+            # of their current position 
+            j = i-1
+            while j >= 0 and key.get_page_num() < arr[j].get_page_num() : 
+                arr[j + 1] = arr[j] 
+                j -= 1
+            arr[j + 1] = key 
+
+    def print_info(self):
+        print(' *********************************')
+        print('* Printing info for Folder Object *')
+        print(' *********************************')
+        print('Folder: '+self.name)
+        print('Folder Length: '+str(len(self.page_list)))
+
+'''
+Creates object that contains all data for the HTML page.
+
+Attributes:
+    text (string):          Body of the file
+
+TODO:
+
+    Create writeToFile() method
+    Create getChStr() method
+    Create getTabStr() method
+'''
+class HTML:
+    def __init__(self, folder, pathOfFile):
+        self.writeToFile(folder, pathOfFile)
+
+    def writeToFile(self, folder, path):
+        file = open(path+'Chapter'+folder.get_ch_num()+'.txt', 'w+')
+        file.write(htmlp1)
+        file.write(self.getTabStr(folder,folder.get_num_of_sec()))
+        file.write(htmlp2)
+        file.write(self.getChStr(folder))
+        file.write(htmlp3)
+        file.close()
+        os.system('mv '+'Chapter'+folder.get_ch_num()+'.txt Chapter'+folder.get_ch_num()+'.html')
+    
+    def getTabStr(self, folder, secNum):
+        finalStr = ''
+        for i in range(secNum):
+            finalStr+='''                    '<a href="#sec'''+folder.get_ch_num()+'''.'''+str(i+1)+'''">Sec '''+folder.get_ch_num()+'''.'''+str(i+1)+'''</a>'''+'\n'
+        return finalStr
+    
+    def getChStr(self,folder):
+        finalStr = ''
+        for i in range(len(folder.get_page_list())):
+            if i < 10:
+                finalStr+='''            <img src="../src/Ch'''+folder.get_ch_num()+'''/Chapter'''+folder.get_ch_num()+'''BIO-0'''+str(i+1)+'''.png" width="850" height="1000"/>'''+'\n'
+            else:
+                finalStr+='''            <img src="../src/Ch'''+folder.get_ch_num()+'''/Chapter'''+folder.get_ch_num()+'''BIO-'''+str(i+1)+'''.png" width="850" height="1000"/>'''+'\n'
+        
+        return finalStr
+
+def main():
+    os.system('clear')
+    
+    if args.dev:
+        print('~ DevMode:       ON')
+    else:
+        print('~ DevMode:       OFF')
+
+    if args.pI:
+        print('~ PrintInfo:     ON')
+    else:
+        print('~ PrintInfo:     OFF')
+
+    path = input('Enter the path to the folder containing the page images:')
+    if not os.path.isdir(path):
+        print('Invalid DIR at: '+path)
+        sys.exit(2)
+
+    folder = Folder(path)
+    
+    html_file = HTML(folder,HTML_DIR+"Chapter"+folder.get_ch_num()+".html")
+    
+
+if __name__ == "__main__":
+    main()

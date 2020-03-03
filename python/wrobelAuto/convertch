@@ -1,0 +1,32 @@
+from pdf2image import convert_from_path
+import os, sys, tempfile
+
+page_offset = 49
+
+if len(sys.argv) != 4:
+    print("Usage: convertch chapternum startpage endpage")
+    sys.exit(2)
+
+try:
+    chapternum = int(sys.argv[1])
+    start = int(sys.argv[2]) + page_offset
+    end = int(sys.argv[3]) + page_offset
+except ValueError:
+    print("Start and end page must be valid whole numbers!")
+    sys.exit(2)
+
+pdf_path = "/home/john/Documents/wrobelbook.pdf"
+save_path = "/home/john/Documents/GitHub/wrobelwebsite.github.io/src/"
+
+with tempfile.TemporaryDirectory() as path: 
+    pages = convert_from_path(pdf_path, output_folder=path, first_page=start, last_page=end)
+
+if not os.path.isdir(save_path+"Ch"+str(chapternum)): os.mkdir(save_path+"Ch"+str(chapternum))
+
+pagenum = 1
+for page in pages:
+    if pagenum < 10:
+        page.save(save_path+"Ch"+str(chapternum)+"/Chapter"+str(chapternum)+"BIO-0"+str(pagenum)+".png", "PNG")
+    else:
+        page.save(save_path+"Ch"+str(chapternum)+"/Chapter"+str(chapternum)+"BIO-"+str(pagenum)+".png", "PNG")
+    pagenum+=1
