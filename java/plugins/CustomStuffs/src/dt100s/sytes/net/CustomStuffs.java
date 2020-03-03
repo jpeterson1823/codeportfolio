@@ -14,7 +14,7 @@ public class CustomStuffs extends JavaPlugin implements Listener{
         this.getServer().getPluginManager().registerEvents(this,this);
         this.getCommand("wp").setExecutor(new Teleport());
         this.getCommand("smite").setExecutor(new Smite());
-        this.getCommand("store").setExecutor(new CobbleStore());
+        this.getCommand("cobble").setExecutor(new CobbleStore());
     }
 
     @EventHandler

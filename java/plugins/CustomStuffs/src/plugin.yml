@@ -10,6 +10,6 @@ commands:
   smite:
     description: allows ops to smite players with the power of Zeus.
     usage: /smite player
-  store:
-    description: allows players to store cobblestone in the aether.
-    usage: /cobble [get, store] <amount>
+  cobble:
+    description: allows players to store cobblestone in the aether and retrieve it at will.
+    usage: /cobble [get,store] [amount_to_get]
