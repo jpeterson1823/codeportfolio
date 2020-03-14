@@ -1,0 +1,29 @@
+1584140795259	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexzZS2o"
+*** You are running in headless mode.
+1584140795445	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584140795627	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584140795627	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584140795627	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584140795627	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584140796615	Marionette	INFO	Listening on port 41527
+1584140796663	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://d3ezh8unnmkdru.cloudfront.net/build/assets/js/vendor.min-b22c524607.js, line 10: ReferenceError: init is not defined
+JavaScript warning: https://d3ezh8unnmkdru.cloudfront.net/build/assets/js/vendor.min-b22c524607.js, line 10: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d3ezh8unnmkdru.cloudfront.net/build/assets/js/vendor.min-b22c524607.js, line 10: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d3ezh8unnmkdru.cloudfront.net/build/assets/js/vendor.min-b22c524607.js, line 10: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d3ezh8unnmkdru.cloudfront.net/build/assets/js/vendor.min-b22c524607.js, line 10: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://d3ezh8unnmkdru.cloudfront.net/build/assets/js/console.min-e557d83fd7.js, line 8: TypeError: Argument 1 of Window.getComputedStyle is not an object.
+1584140807081	Marionette	INFO	Stopped listening on port 41527
+1584140834758	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePnwrCi"
+1584140835011	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584140835185	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584140835185	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584140835185	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584140835185	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584140836346	Marionette	INFO	Listening on port 42795
+1584140836363	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://d3ezh8unnmkdru.cloudfront.net/build/assets/js/vendor.min-b22c524607.js, line 10: ReferenceError: init is not defined
+JavaScript error: https://d3ezh8unnmkdru.cloudfront.net/build/assets/js/console.min-e557d83fd7.js, line 8: TypeError: Argument 1 of Window.getComputedStyle is not an object.
+1584140846105	Marionette	INFO	Stopped listening on port 42795
