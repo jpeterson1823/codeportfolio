@@ -1,2 +1,0 @@
-thing==version
-thing2==version2
