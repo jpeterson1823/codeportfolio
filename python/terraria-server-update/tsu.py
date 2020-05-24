@@ -18,7 +18,7 @@ for link in terraria_links:
 
 # Determine if server is out of date by comparing the version number of the file link to the current version
 # stored in the 'current_version.txt' file.
-if max(available_versions) < current_version : print("Server is up to date.")
+if max(available_versions) <= current_version : print("Server is up to date.")
 else :
     print("Updating server to Terraria "+str(max(available_versions))+'.\nDownloading server files from '+terraria_links[len(terraria_links)-1]+'...')
     open('./bin/terraria-server-'+str(max(available_versions))+'.zip', 'wb').write(requests.get(terraria_links[len(terraria_links)-1]).content)
@@ -61,5 +61,8 @@ else :
     print('\tremoving ./bin/html_page')
     os.unlink('./bin/html_page')
 
-    print('Update Completed.')
+    # Update the 'current_version.txt' listed version to the newly installed version.
+    open('current_version.txt', 'w').write(str(max(available_versions)))
+
+    print('Update Completed. Please remember to update the server file permissions.')
     

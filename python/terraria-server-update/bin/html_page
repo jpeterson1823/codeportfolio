@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Server - The Official Terraria Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Server","wgTitle":"Server","wgCurRevisionId":1000791,"wgRevisionId":1000791,"wgArticleId":1385,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using DynamicPageList dplvar parser function","Pages using DynamicPageList dplreplace parser function","Pages using DynamicPageList parser function","Entities patched in Desktop 1.4.0.1","Entities patched in Desktop 1.3.0.4","Entities patched in Desktop 1.3.0.3","Entities patched in Desktop 1.3.0.2","Entities patched in Desktop 1.2.3.1","Entities patched in Desktop 1.0.2","Entities introduced in Desktop-Release","Entities introduced in Console-Release","Entities introduced in Mobile-Release","Entities introduced in 3DS-Release","Terraria"],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Server","wgRelevantArticleId":1385,"wgRequestId":"59a1b486c5e094362c319cd4","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgUserGlobalId":0,"dsSiteKey":"d418241596270bdd0f918ec891b607c3","wgCargoMapClusteringMinimum":80,"wgCargoMonthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"wgCargoMonthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgCargoWeekDays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"wgCargoWeekDaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"wgCollapsibleVectorEnabledModules":{"collapsiblenav":true,"experiments":true},"wgMFDisplayWikibaseDescriptions":{"search":false,"nearby":false,"watchlist":false,"tagline":false},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":false},"wgCodeMirrorEnabled":true,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.gadget.sound-styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.slideshow.css":"ready","ext.pygments":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","jquery.makeCollapsible.styles":"ready","mediawiki.toc.styles":"ready","ext.siteGlobals.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","skins.vector.styles.responsive":"ready","ext.social.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","skins.z.hydra.light.styles":"ready","skins.hydra.googlefont.styles":"ready","skins.hydra.netbar":"ready","skins.hydra.footer":"ready","skins.hydra.advertisements.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["ext.slideshow.main","site","mediawiki.page.startup","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","mediawiki.searchSuggest","ext.hydraAuth.banners","ext.track.scripts","ext.siteGlobals.scripts","ext.crusher.tables","ext.gadget.editTop","ext.gadget.previewTab","ext.gadget.ReferenceTooltips","ext.gadget.addSigLink","ext.gadget.contribsDisplayed","ext.gadget.flashAnchored","ext.gadget.ImageForeignUseCheck","ext.gadget.sound","ext.collapsiblevector.collapsibleNav","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","skins.vector.js","skins.hydra.advertisements.js","skins.hydra.footer.js","ext.social.scripts"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.pygments%7Cext.siteGlobals.styles%7Cext.slideshow.css%7Cext.social.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cjquery.makeCollapsible.styles%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.hydra.advertisements.styles%7Cskins.hydra.footer%2Cnetbar%7Cskins.hydra.googlefont.styles%7Cskins.vector.styles%7Cskins.vector.styles.responsive%7Cskins.z.hydra.light.styles&amp;only=styles&amp;skin=hydra"/>
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;skin=hydra"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.sound-styles&amp;only=styles&amp;skin=hydra"/>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=hydra"/>
+<meta name="generator" content="MediaWiki 1.33.3"/>
+<meta property="og:title" content="Server"/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="https://gamepedia.cursecdn.com/terraria_gamepedia/b/bc/Wiki.png?version=75e17e1ac1a24b628739775819cae2b0"/>
+<meta property="og:url" content="https://terraria.gamepedia.com/Server"/>
+<meta property="og:site_name" content="Terraria Wiki"/>
+<meta name="description"/>
+<meta name="keywords" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/index.php?title=Server&amp;action=edit"/>
+<link rel="edit" title="Edit" href="/index.php?title=Server&amp;action=edit"/>
+<link rel="apple-touch-icon" href="https://terraria.gamepedia.com/media/6/64/Favicon.ico"/>
+<link rel="shortcut icon" href="https://gamepedia.cursecdn.com/terraria_gamepedia/6/64/Favicon.ico?version=9974882dd9307ed881b2782ff587be07&amp;version=9974882dd9307ed881b2782ff587be07"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Terraria Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://terraria.gamepedia.com/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-nc-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Terraria Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="canonical" href="https://terraria.gamepedia.com/Server"/>
+<meta itemprop="author" content="Gamepedia" />
+<!--[if lt IE 9]><script src="/load.php?lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=hydra&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Server rootpage-Server skin-hydra action-view site-terraria-gamepedia show-ads"><script>
+var version = 'v64.3.0';
+var host = 'https://origin-images.wikia.com/fandom-ae-assets/platforms/' + version + '/gamepedia';
+var jsScript = document.createElement('script');
+var cssLink = document.createElement('link');
+ 
+jsScript.id = 'ae3.bundle';
+jsScript.src = host + '/main.bundle.js';
+jsScript.async = true;
+jsScript.type = 'text/javascript';
+ 
+cssLink.id = 'ae3.styles';
+cssLink.href = host + '/styles.css';
+cssLink.type = 'text/css';
+cssLink.rel = 'stylesheet';
+ 
+document.head.appendChild(jsScript);
+document.head.appendChild(cssLink);
+ 
+if (Math.max(document.documentElement.clientHeight, window.innerHeight || 0) < 800) {
+    document.addEventListener("DOMContentLoaded", function(event) {
+        var element = document.getElementById("cdm-zone-06");
+        if (element) {
+            element.parentNode.removeChild(element);
+        }
+    });
+}
+ 
+// LEGACY PART
+ 
+window.isMobileResponsive = false;
+window.factorem = window.factorem || {};
+window.factorem.slotSizes =  [[[728,90],[980,150],[980,250],[970,150],[970,250]],[[300,250],[300,600]],[[300,250]],[[728,90]],[],[[300,250]],[],[]];
+factorem.moatFrequency="1.0";
+factorem.sandboxPolicy="mobile";
+</script>
+
+<!-- Google Tag Manager K -->
+<script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NR933TZ');</script>
+<!-- End Google Tag Manager K -->
+
+<script type="text/javascript">!function(){var t=window.SambaTV=window.SambaTV||[];if(!t.track){if(t.invoked)return void(window.console&&window.console.error&&window.console.error("Samba Metrics snippet included twice."));t.invoked=!0,t.methods=["track","Impression","Purchase","Register","Click","Login","Register"],t.factory=function(e){return function(){var r=Array.prototype.slice.call(arguments);return r.unshift(e),t.push(r),t}};for(var e=0;e<t.methods.length;e++){var r=t.methods[e];t[r]=t.factory(r)}t.load=function(t){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src=("https:"===document.location.protocol?"https://":"http://")+"tag.mtrcs.samba.tv/v3/tag/"+t+"/sambaTag.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(e,r)},t.attrs||(t.attrs={}),t.SNIPPET_VERSION="1.0.1",t.load("wikia/fandom-gamepedia")}}();</script>	<script type="text/javascript">
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}
+
+			, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+		ga('create', 'UA-35871056-4', 'auto', 'tracker0', []);
+		ga('create', 'UA-39967852-9', 'auto', 'tracker1', []);
+		ga('tracker0.send', 'pageview');
+
+		if (window.cdnprovider) {
+			ga(
+				'tracker1.send',
+				'pageview',
+				{
+					'dimension1':  window.cdnprovider
+				}
+			);
+		} else {
+			ga('tracker1.send', 'pageview');
+		}
+
+	</script>
+
+<div id="netbar">
+	<div class="netbar-flex">
+		<div class="netbar-box left logo"><a href="https://www.gamepedia.com">Gamepedia</a></div>
+				<div class="netbar-box left"><a href="https://support.gamepedia.com/">Help</a></div>
+												<div class="netbar-box left officialwiki"><a href="/index.php?title=Special:AllSites&amp;filter=official"><img src="/skins/Hydra/images/netbar/official-wiki.svg" width="90"></a></div>
+						<div class="netbar-spacer">&nbsp;</div>
+						<div class="netbar-box right"><a href="/index.php?title=Special:UserLogin&returnto=Server" id="login-link" class="aqua-link">Sign In</a></div>
+					<div class="netbar-box right"><a href="/index.php?title=Special:CreateAccount&returnto=Server" id="register-link" class="aqua-link">Register</a></div>
+						</div>
+</div>
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org/",
+    "@type": "Article",
+    "name": "Server",
+    "headline": "Server",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://gamepedia.cursecdn.com/terraria_gamepedia/b/bc/Wiki.png?version=75e17e1ac1a24b628739775819cae2b0",
+        "width": "160",
+        "height": "163"
+    },
+    "author": {
+        "@type": "Organization",
+        "name": "Terraria Wiki"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Gamepedia",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://terraria.gamepedia.com/skins/Hydra/images/icons/gp-pub-logo.png"
+        },
+        "sameAs": [
+            "https://twitter.com/CurseGamepedia", "https://www.facebook.com/CurseGamepedia", "https://www.twitch.tv/gamepedia/videos"
+        ]
+    },
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://terraria.gamepedia.com/index.php?title=Special:Search&search={search_term}",
+        "query-input": "required name=search_term"
+    },
+    "datePublished": "2020-05-23T22:00:34Z",
+    "dateModified": "2020-05-23T22:00:34Z",
+    "mainEntityOfPage": "https://terraria.gamepedia.com/Server"
+}
+</script>
+	<div id="global-wrapper" class="with-siderail">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="pageWrapper">
+			<div id="content" class="mw-body" role="main" itemprop="articleBody">
+				<a id="top"></a>
+				<div id="siteNotice" class="mw-body-content"><div id="localNotice" lang="en" dir="ltr"><div style="text-align:center; font-weight: bold;"><img alt="Owl.png" src="https://gamepedia.cursecdn.com/terraria_gamepedia/5/5c/Owl.png?version=f80cd68024982fe4749365e5cc7f565f" decoding="async" width="26" height="34" /> Wiki reading hard on the eyes? Try out our Dark Theme! Visit <a href="/Special:Preferences#mw-prefsection-rendering" title="Special:Preferences">the preferences page</a> while logged in and select Hydra Dark. <img alt="Owl.png" src="https://gamepedia.cursecdn.com/terraria_gamepedia/5/5c/Owl.png?version=f80cd68024982fe4749365e5cc7f565f" decoding="async" width="26" height="34" /></div></div></div>				<!-- ATF Leaderboard -->
+								<div id="atflb">
+					<div id='cdm-zone-01'></div>				</div>
+								<!-- /ATF Leaderboard -->
+				<div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en" itemprop="name">Server</h1>				<div id="bodyContent" class="mw-body-content">
+					<div id="siteSub" class="noprint">From Terraria Wiki</div>					<div id="contentSub"></div>
+										<div id="jump-to-nav" class="mw-jump">
+						Jump to:						<a href="#mw-head">navigation</a>, 						<a href="#p-search">search</a>
+					</div>
+					<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p>A Terraria <b>server</b> provides a platform for players to connect over the internet or other network for <a href="/Multiplayer" title="Multiplayer">multiplayer</a> games. Windows installations of Terraria include its server software. For running on a Linux distribution, you must download the server files. See the Downloads section.
+</p><p>A server can also be used for standalone single-player gameplay. This offers the ability to adjust the in-game <a href="/Time" class="mw-redirect" title="Time">time</a> at will.
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Before_You_Host"><span class="tocnumber">1</span> <span class="toctext">Before You Host</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Public_servers"><span class="tocnumber">2</span> <span class="toctext">Public servers</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Joining_Servers"><span class="tocnumber">2.1</span> <span class="toctext">Joining Servers</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#How_to_.28Windows.29"><span class="tocnumber">3</span> <span class="toctext">How to (Windows)</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#How_to_.28Linux.29"><span class="tocnumber">4</span> <span class="toctext">How to (Linux)</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#How_to_.28RPI_.2F_Others_OSes.29"><span class="tocnumber">5</span> <span class="toctext">How to (RPI / Others OSes)</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Downloads"><span class="tocnumber">6</span> <span class="toctext">Downloads</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Server_files"><span class="tocnumber">7</span> <span class="toctext">Server files</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#List_of_console_commands"><span class="tocnumber">8</span> <span class="toctext">List of console commands</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Command_line_parameters"><span class="tocnumber">9</span> <span class="toctext">Command line parameters</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Server_config_file"><span class="tocnumber">10</span> <span class="toctext">Server config file</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Banning_and_un-banning"><span class="tocnumber">11</span> <span class="toctext">Banning and un-banning</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#System_requirements"><span class="tocnumber">12</span> <span class="toctext">System requirements</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Notes"><span class="tocnumber">13</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#LAN"><span class="tocnumber">14</span> <span class="toctext">LAN</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#History"><span class="tocnumber">15</span> <span class="toctext">History</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Before_You_Host">Before You Host</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=1" class="mw-editsection-visualeditor" title="Edit section: Before You Host">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=1" title="Edit section: Before You Host">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The server runs on TCP port 7777 by default. If you are behind NAT (e.g. residential user), the port used must be <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://portforward.com/">port-forwarded</a> in order for other players be able to join. If one can't forward a port, one may choose to use a VPN service like <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://secure.logmein.com/products/hamachi/download.aspx">Hamachi</a> or <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.radmin-vpn.com/">Radmin VPN</a>instead (although in those cases, every player needs to install the VPN software). The default max players is 8 (16 as of <a href="/1.4.0.1" title="1.4.0.1">1.4.0.1</a>), but this can be changed during server start-up, as well as within the server configuration file (serverconfig.txt). Non-NAT connections(e.g. business or data center user) typically do not need port forwarding, but may need to allow the port through a firewall.
+</p><p><br />
+If running on a cloud service provider such as AWS or GCP, ensure port 7777 on TCP and UDP is open to allow connections to the server.
+</p>
+<h2><span class="mw-headline" id="Public_servers">Public servers</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=2" class="mw-editsection-visualeditor" title="Edit section: Public servers">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=2" title="Edit section: Public servers">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Some active servers:
+</p>
+<ul><li>Aurora Gaming - <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://aurora-gaming.org">https://aurora-gaming.org</a> (IP: <code class="code" style=""><code class="code mw-highlight" id="" style="" dir="ltr">t.aurora-gaming.com</code></code>, Port: <code class="code" style=""><code class="code mw-highlight" id="" style="" dir="ltr">7777</code></code>)</li>
+<li>Pedguin's Minigame Server - <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://pedguin.com">https://pedguin.com</a> (IP: <code class="code" style=""><code class="code mw-highlight" id="" style="" dir="ltr">pedguin.com</code></code>, Port: <code class="code" style=""><code class="code mw-highlight" id="" style="" dir="ltr">7777</code></code>)
+<ul><li>Capture the Gem, Spleef, Build My Thing, Penguin Party, Parkour, Who is the Killer, Terra Strike, Class Wars, Defend the Fortress, and Races; PvE events in the PvE lobby and Survival in the Survival lobby.</li>
+<li>Must use a new Softcore character. Play as Guest or use <code class="code" style=""><code class="code mw-highlight" id="" style="" dir="ltr">/register &quot;password&quot;</code></code>.</li></ul></li>
+<li>Teeria Legends - <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://www.teeria.eu">https://www.teeria.eu</a> (IP: <code class="code" style=""><code class="code mw-highlight" id="" style="" dir="ltr">t.teeria.eu</code></code>, Port: <code class="code" style=""><code class="code mw-highlight" id="" style="" dir="ltr">7777</code></code>)</li>
+<li>Terraria One - <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://terraria.one">https://terraria.one</a> (IP: <code class="code" style=""><code class="code mw-highlight" id="" style="" dir="ltr">terraria.one</code></code>, Port: <code class="code" style=""><code class="code mw-highlight" id="" style="" dir="ltr">7777</code></code>)</li></ul>
+<p>Other servers can be found via these server lists:
+</p>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://forums.terraria.org/index.php?forums/dedicated-servers.195/">Server forum at Official Terraria Forum</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.tserverweb.com/">Terraria Server List and TShock Manager</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://topg.org/terraria-servers/">https://topg.org/terraria-servers/</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="http://terraria-servers.com">http://terraria-servers.com</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://terraria.21yunbox.com/">Fast Chinese network servers</a></li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Joining_Servers">Joining Servers</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=3" class="mw-editsection-visualeditor" title="Edit section: Joining Servers">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=3" title="Edit section: Joining Servers">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>A server can be joined by selecting the Multiplayer option on the main menu, selecting a character, and then entering the server's IP and port.
+</p><p>Often different servers have different requirements for a player to join. Some servers will require the player to have a <a href="/Softcore" class="mw-redirect" title="Softcore">Softcore</a> or <a href="/Mediumcore" class="mw-redirect" title="Mediumcore">Mediumcore</a> player to play, and some may require that players be at a certain level of the game before joining. Often a public server will have a /register and /login system where the player must have a character with both a unique name and password.
+</p><p>Public servers also usually are run by a group of Administrators and/or Moderators who enforce or regulate rules. Often these rules will disallow mods and hacks, impersonation, and the like. Some servers may also have the capability to allow a player to play online with their singleplayer character without losing their singleplayer inventory.
+</p><p>A list of servers you have recently played will be saved under "Join via IP" in Multiplayer.
+</p>
+<h2><span id="How_to_(Windows)"></span><span class="mw-headline" id="How_to_.28Windows.29">How to (Windows)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=4" class="mw-editsection-visualeditor" title="Edit section: How to (Windows)">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=4" title="Edit section: How to (Windows)">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>By default, on a 32-bit Windows installation of Terraria, TerrariaServer.exe can be found at:
+</p>
+<pre>%programfiles%\Steam\steamapps\common\terraria</pre>
+<p>On a 64-bit Windows installation, it can be found at:
+</p>
+<pre>%programfiles(x86)%\Steam\steamapps\common\terraria</pre>
+<p>If you do not have steam:
+</p>
+<pre>%programfiles(x86)\terraria or %programfiles%\terraria</pre>
+<p>If you use GOG:
+</p>
+<pre>GOG Games\terraria</pre>
+<p>A player then may join the server from the game menu by choosing the Multiplayer option.
+</p>
+<h2><span id="How_to_(Linux)"></span><span class="mw-headline" id="How_to_.28Linux.29">How to (Linux)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=5" class="mw-editsection-visualeditor" title="Edit section: How to (Linux)">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=5" title="Edit section: How to (Linux)">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><b>Prerequisites:</b>
+</p><p>First we will install the tools we need to run the server. These are likely preinstalled on your distribution. For a debian based system (Ubuntu), run:
+</p>
+<pre>sudo apt update &amp;&amp; sudo apt install -y wget tmux unzip
+</pre>
+<p><b>Starting the server:</b>
+</p><p>See the <a href="/Server#Downloads" title="Server">Downloads</a> section to get the link to the latest download. Then download the file:
+</p>
+<pre>wget <b>the_latest_link_here</b>
+</pre>
+<p>Unzip the file
+</p>
+<pre>unzip terraria-server*
+</pre>
+<p>Navigate into the directory you just unzipped. As of 1.4.0.4 the directory is called '1404'. This may change for future versions. 
+</p>
+<pre>cd 1404
+</pre>
+<p>Navigate to the Linux directory
+</p>
+<pre>cd Linux
+</pre>
+<p>Add executable permissions to the server binary
+</p>
+<pre>sudo chmod +x TerrariaServer.bin.x86*
+</pre>
+<p>Launch the server. The 64 bit version is TerrariaServer.bin.x86_64, the 32 bit version is TerrariaServer.bin.x86
+</p>
+<pre>./TerrariaServer.bin.x86_64
+</pre>
+<p>Place your world files in the following location for the server to find them:
+</p>
+<pre>~/.local/share/Terraria/Worlds/
+</pre>
+<p><b>Launching in the background:</b>
+</p><p>Tmux is a modern version of screen that allows multiple virtual terminal instances. We will use it to launch the server in the background.
+</p><p><br />
+Launch the server in a tmux session
+</p>
+<pre>tmux
+</pre>
+<p>In the tmux session, launch the server
+</p>
+<pre>./TerrariaServer.bin.x86_64
+</pre>
+<p>Now the server should start up as normal. To detatch from the tmux instance, leaving the server running in the background, use the following key combination
+</p>
+<pre>&lt;Ctrl+b&gt; d
+</pre>
+<p>You should now be back at the previous terminal instance. You can see that the tmux session is running in the background with
+</p>
+<pre>tmux list
+</pre>
+<p>To re-attach to the instance to edit or shut it down, just run
+</p>
+<pre>tmux attach
+</pre>
+<p><br /><b>Notes:</b>
+</p><p>In some cases it is needed to export TERM variable in this way:
+</p>
+<pre>export TERM=xterm
+</pre>
+<h2><span id="How_to_(RPI_/_Others_OSes)"></span><span class="mw-headline" id="How_to_.28RPI_.2F_Others_OSes.29">How to (RPI / Others OSes)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=6" class="mw-editsection-visualeditor" title="Edit section: How to (RPI / Others OSes)">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=6" title="Edit section: How to (RPI / Others OSes)">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>If you are using an operating system (Such as Raspbian or FreeBSD) that does not come with a prebuilt executable, you could use <b>mono</b> to start the server.
+</p><p>This could be useful if you want to host a server on a device such as a <b>Raspberry Pi</b>, or any device that does not run on the x86 architecture.
+</p><p><b>Prerequisites:</b>
+</p><p>NOTE: If you are using a non-x86 Linux-based operating system (Such as Raspbian), the first few instructions should be the same as the one found <a href="/Server#How_to_.28Linux.29" title="Server">here</a>, up until the <b>chmod</b> command.
+</p><p>You would need to install <b>mono</b> and and any other required libraries (such as <b>sqlite</b> or <b>screen</b>) if it does not come preinstalled on your system.
+</p><p><b>Launching the server:</b>
+</p><p><a href="/Server#Downloads" title="Server">Download</a> and extract the Terraria files following your system specifications. (For Raspberry Pi Users Follow The <a href="/Server#How_to_.28Linux.29" title="Server">Linux</a> Guide)
+</p><p>Navigate to the <b>Linux</b> directory.
+</p><p>Launch the server by using the following mono command:
+</p>
+<pre>mono --server --gc=sgen -O=all ./TerrariaServer.exe</pre>
+<p>The server should run as expected.
+</p><p><b>Troubleshooting:</b>
+</p><p>If you encounter an error saying <b>"Your mono runtime and class libraries are out of sync."</b>, navigate within the Terraria directory and remove monoconfig, mscorlib.dll, and any files that begin with "Mono" or "System".
+</p><p>Example instructions with Linux:
+</p>
+<pre>rm System*
+rm Mono*
+rm monoconfig
+rm mscorelib.dll</pre>
+<p>WindowsBase.dll and FNA.dll should be the only .dll files in the directory
+</p><p>NOTE: This procedure will delete any other files starting with "Mono" or "System", so keep that in mind!
+</p>
+<h2><span class="mw-headline" id="Downloads">Downloads</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=7" class="mw-editsection-visualeditor" title="Edit section: Downloads">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=7" title="Edit section: Downloads">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The vanilla Terraria server software is included with the regular Terraria package (see above), but can also be downloaded:
+</p>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://terraria.org/server/terraria-server-1333.zip">Terraria Server 1.3.3.3</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://terraria.org/server/terraria-server-1344.zip">Terraria Server 1.3.4.4</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://terraria.org/server/terraria-server-1353.zip">Terraria Server 1.3.5.3</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://terraria.org/server/terraria-server-1401.zip">Terraria Server 1.4.0.1</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://terraria.org/system/dedicated_servers/archives/000/000/036/original/terraria-server-1402.zip?1589675482">Terraria Server 1.4.0.2</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://terraria.org/system/dedicated_servers/archives/000/000/037/original/terraria-server-1403.zip?1590018631">Terraria Server 1.4.0.3</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.terraria.org/system/dedicated_servers/archives/000/000/038/original/terraria-server-1404.zip?1590253816">Terraria Server 1.4.0.4</a></li></ul>
+<p>Dedicated Server GUI is a third-party add-on for the vanilla server that offers graphical controls (the server is normally a command-line program):
+</p>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/oiisamiio/TerrariaDedicatedServerGui/releases">Dedicated Server GUI</a>.</li></ul>
+<p><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://tshock.co/xf/">Tshock</a> and TDSM are third-party server packages that offer additional functionality, such as in-game commands, whitelists, player passwords, and a plugin interface for added features (such as factions):
+</p>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/NyxStudios/TShock/releases">Tshock</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/DeathCradle/Terraria-s-Dedicated-Server-Mod">TDSM</a> (Latest version 1.3.2.1; No longer maintained.)</li></ul>
+<h2><span class="mw-headline" id="Server_files">Server files</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=8" class="mw-editsection-visualeditor" title="Edit section: Server files">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=8" title="Edit section: Server files">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The server consists of three files:
+</p>
+<ul><li><b>TerrariaServer.exe</b> - The main server file. Can be run stand-alone.</li>
+<li><b>serverconfig.txt</b> - The server config files. Defines all parameters for the server (see below).</li>
+<li><b>start-server.bat</b> - A Windows Batch file which starts the server using the <b>serverconfig.txt</b> file. Also contains a loopback to restart the server if it should crash.</li></ul>
+<h2><span class="mw-headline" id="List_of_console_commands">List of console commands</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=9" class="mw-editsection-visualeditor" title="Edit section: List of console commands">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=9" title="Edit section: List of console commands">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Once a dedicated server is running, the following commands can be run:
+</p>
+<ul><li><b>help</b> -  Displays a list of commands.</li>
+<li><b>playing</b> -  Shows the list of players. This can be used in-game by typing /playing into the chat.</li>
+<li><b>clear</b> -  Clear the console window.</li>
+<li><b>exit</b> -  Shutdown the server and save.</li>
+<li><b>exit-nosave</b> - Shutdown the server without saving.</li>
+<li><b>save</b> -  Save the game world.</li>
+<li><b>kick &lt;player name&gt;</b> - Kicks a player from the server.</li>
+<li><b>ban &lt;player name&gt;</b> - Bans a player from the server.</li>
+<li><b>password</b> -  Show password.</li>
+<li><b>password &lt;pass&gt;</b> - Change password.</li>
+<li><b>version</b> -  Print version number.</li>
+<li><b>time</b> -  Display game time.</li>
+<li><b>port</b> -  Print the listening port.</li>
+<li><b>maxplayers</b> - Print the max number of players.</li>
+<li><b>say &lt;message&gt;</b> - Send a message to all players. They will see the message in yellow prefixed with <b>&lt;server&gt;&lt;/server&gt;</b> in the chat.</li>
+<li><b>motd</b> -  Print MOTD.</li>
+<li><b>motd &lt;message&gt;</b> - Change MOTD.</li>
+<li><b>dawn</b> -  Change time to dawn (4:30 AM).</li>
+<li><b>noon</b> -  Change time to noon (12:00 PM).</li>
+<li><b>dusk</b> -  Change time to dusk (7:30 PM).</li>
+<li><b>midnight</b> -  Change time to midnight (12:00 AM).</li>
+<li><b>settle</b> -  Settle all water.</li></ul>
+<p>Note that a forward-slash <span class="key" style="display:inline-block; white-space:nowrap;"><a href="/Game_controls" title="Game controls"><kbd style="color:black;border: 1px solid rgb(170, 170, 170);box-shadow: 0.1em 0.2em 0.2em rgb(221, 221, 221);border-radius: .2em;background-image: linear-gradient(to bottom, rgb(238, 238, 238), rgb(249, 249, 249), rgb(238, 238, 238));background-color: rgb(249, 249, 249);padding: 0.1em 0.4em 0.2em 0.3em;margin-right:2px;font-size:85%;font-family:inherit;font-style:normal;">/</kbd></a></span> is <b>not</b> required to precede the command, as some command interfaces require. For a list of Tshock commands, refer to <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://tshock.readme.io/docs/getting-started">the TShock readme</a>.
+</p>
+<h2><span class="mw-headline" id="Command_line_parameters">Command line parameters</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=10" class="mw-editsection-visualeditor" title="Edit section: Command line parameters">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=10" title="Edit section: Command line parameters">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The following is a list of parameters that can be entered when running TerrariaServer initially:
+</p>
+<ul><li><b>-config &lt;file path&gt;</b> - Specifies a configuration file to use (see <a href="#serverconfig">Server config file</a> below).</li>
+<li><b>-port &lt;number&gt;</b> - Specifies the port to listen on.</li>
+<li><b>-players &lt;number&gt; / -maxplayers &lt;number&gt;</b> - Sets the max number of players.</li>
+<li><b>-pass &lt;password&gt; / -password &lt;password&gt;</b> - Sets the server password.</li>
+<li><b>-motd &lt;text&gt;</b> - Set the server motto of the day text.</li>
+<li><b>-world &lt;file path&gt;</b> - Load a world and automatically start the server.</li>
+<li><b>-autocreate &lt;number&gt;</b> - Creates a world if none is found in the path specified by -world. World size is specified by: 1(small), 2(medium), and 3(large).</li>
+<li><b>-banlist &lt;file path&gt;</b> - Specifies the location of the banlist. Defaults to "banlist.txt" in the working directory.</li>
+<li><b>-worldname &lt;world name&gt;</b> - Sets the name of the world when using -autocreate.</li>
+<li><b>-secure</b> - Adds additional cheat protection to the server.</li>
+<li><b>-noupnp</b> - Disables automatic universal plug and play.</li>
+<li><b>-steam</b> - Enables Steam support.</li>
+<li><b>-lobby friends / -lobby private</b> - Allows only friends to join the server or sets it to private if Steam is enabled.</li>
+<li><b>-ip &lt;ip address&gt;</b> - Sets the IP address for the server to listen on</li>
+<li><b>-forcepriority &lt;priority&gt;</b> - Sets the process priority for this task. If this is used the "priority" setting below will be ignored.</li>
+<li><b>-disableannouncementbox</b> - Disables the text announcements Announcement Box makes when pulsed from wire.</li>
+<li><b>-announcementboxrange &lt;number&gt;</b> - Sets the announcement box text messaging range in pixels, -1 for serverwide announcements.</li>
+<li><b>-seed &lt;seed&gt;</b> - Specifies the world seed when using -autocreate</li></ul>
+<p><span id="serverconfig"></span>
+</p>
+<h2><span class="mw-headline" id="Server_config_file">Server config file</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=11" class="mw-editsection-visualeditor" title="Edit section: Server config file">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=11" title="Edit section: Server config file">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>It is possible to start the dedicated server using a configuration file that enters the above parameters automatically. The config file must be called using the -config parameter. The file can have any name, but must be in the same folder as TerrariaServer.exe. If a server config file is defined and the file is not located during the server boot, then the server will ask the user to input the parameters as it would if run without a defined config file.
+</p><p>The following is a list of available config commands:
+</p>
+<ul><li><b>world=C:\Users\Defaults\My Documents\My Games\Terraria\Worlds\world1.wld</b> - Load a world and automatically start the server.</li>
+<li><b>autocreate=3</b> - Creates a new world if none is found. World size is specified by: 1(small), 2(medium), and 3(large).</li>
+<li><b>seed=AwesomeSeed</b> - Sets the world seed when using autocreate</li>
+<li><b>worldname=World</b> - Sets the name of the world when using autocreate</li>
+<li><b>difficulty=0</b> - Sets world difficulty when using -autocreate. Options: 0(normal), 1(expert), 2(master), 3(journey)</li>
+<li><b>maxplayers=8</b> - Sets the max number of players allowed on a server. Value must be between 1 and 255</li>
+<li><b>port=7777</b> - Set the port number</li>
+<li><b>password=p@55w0rd*</b> - Set the server password</li>
+<li><b>motd=Please don’t cut the purple trees!</b> - Set the message of the day</li>
+<li><b>worldpath=C:\Users\Defaults\My Documents\My Games\Terraria\Worlds\</b> - Sets the folder where world files will be stored</li>
+<li><b>banlist=banlist.txt</b> - The location of the banlist. Defaults to "banlist.txt" in the working directory.</li>
+<li><b>secure=1</b> - Adds additional cheat protection.</li>
+<li><b>language</b> - Sets the server language from its language code.
+<ul><li>available codes:</li>
+<li>en/US = English</li>
+<li>de/DE = German</li>
+<li>it/IT = Italian</li>
+<li>fr/FR = French</li>
+<li>es/ES = Spanish</li>
+<li>ru/RU = Russian</li>
+<li>zh/Hans = Chinese</li>
+<li>pt/BR = Portuguese</li>
+<li>pl/PL = Polish</li></ul></li>
+<li><b>upnp=1</b> - Automatically forward ports with uPNP.</li>
+<li><b>npcstream=60</b> - Reduces enemy skipping but increases bandwidth usage. The lower the number the less skipping will happen, but more data is sent. 0 is off.</li>
+<li><b>priority=1</b> - Default system priority 0:Realtime, 1:High, 2:AboveNormal, 3:Normal, 4:BelowNormal, 5:Idle</li>
+<li><b>Journey mode power permissions for every individual power.</b> 0: Locked for everyone, 1: Can only be changed by host, 2: Can be changed by everyone
+<ul><li><b>journeypermission_time_setfrozen=2</b></li>
+<li><b>journeypermission_time_setdawn=2</b></li>
+<li><b>journeypermission_time_setnoon=2</b></li>
+<li><b>journeypermission_time_setdusk=2</b></li>
+<li><b>journeypermission_time_setmidnight=2</b></li>
+<li><b>journeypermission_godmode=2</b></li>
+<li><b>journeypermission_wind_setstrength=2</b></li>
+<li><b>journeypermission_rain_setstrength=2</b></li>
+<li><b>journeypermission_time_setspeed=2</b></li>
+<li><b>journeypermission_rain_setfrozen=2</b></li>
+<li><b>journeypermission_wind_setfrozen=2</b></li>
+<li><b>journeypermission_increaseplacementrange=2</b></li>
+<li><b>journeypermission_setdifficulty=2</b></li>
+<li><b>journeypermission_biomespread_setfrozen=2</b></li>
+<li><b>journeypermission_setspawnrate=2</b></li></ul></li></ul>
+<p>Comment lines can be included using the hash symbol (#). Lines that begin with # will be skipped entirely.
+</p>
+<h2><span class="mw-headline" id="Banning_and_un-banning">Banning and un-banning</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=12" class="mw-editsection-visualeditor" title="Edit section: Banning and un-banning">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=12" title="Edit section: Banning and un-banning">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The command "ban &lt;player&gt;" will ban the indicated player from the server. A banned player, when they try to login, will be displayed the message:You are banned for [duration]: [reason]- [modname]. A banned player may then be un-banned by editing the file "banlist.txt," which is located in the Terraria folder. This document contains a list of all currently banned players. To un-ban a player, delete the player's name and IP address from the list.&lt;/player&gt;
+</p>
+<h2><span class="mw-headline" id="System_requirements">System requirements</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=13" class="mw-editsection-visualeditor" title="Edit section: System requirements">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=13" title="Edit section: System requirements">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Windows Operating System</li>
+<li>500 MB free RAM for a small world (RAM depends on world size and number of players)</li>
+<li>.NET Framework 4.0</li>
+<li>XNA Framework</li></ul>
+<p>An easy method of installing .NET and XNA is to simply install the Terraria client, which should install both as part of its regular installation.
+</p>
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=14" class="mw-editsection-visualeditor" title="Edit section: Notes">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=14" title="Edit section: Notes">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>The server will auto-save the world now and then, but will only save on shutdown when using the exit command. That said, consider saving manually prior to shutdown.</li>
+<li>When no players are online the server hibernates. Time only passes when players are connected.</li>
+<li>When you launch a server, it will ask if you want to auto port forward, however this doesn't always work.</li>
+<li>Servers are often set up using <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://secure.logmein.com/products/hamachi/">Hamachi</a>. This removes the need of having to port-forward, but relies on a third party program.</li>
+<li>Some servers will boost health, If a server is in expert mode, the destroyer may have 1,000,000+ health / hp (hitpoints)</li></ul>
+<h2><span class="mw-headline" id="LAN">LAN</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=15" class="mw-editsection-visualeditor" title="Edit section: LAN">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=15" title="Edit section: LAN">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Below are instructions for a very basic LAN party setup. At the very least, all computers must be connected to the same network for this to work. If you feel so inclined, you can set the server to have a static LAN IP address, but that's not really necessary. Note that these instructions are targeted at people who have little to no networking experience, and just want to play games.
+</p>
+<ol><li>Make sure that all computers are connected to the same network
+<ul><li>Connect the computers to the network via ethernet if possible, since ethernet is almost always faster than wireless.</li>
+<li>If you have a regular home router and want to connect many players, you can connect more computers to the network via ethernet by use of a switch. Simply plug any port of the switch into the router, and plug the rest of the computers (and the server) into the switch. If you don't have a switch, try to at least connect the computer running the server to the network via ethernet. If you can't do that, just make sure all computers are connected to the same wifi connection and it will probably work, just a bit more slowly.</li></ul></li>
+<li>Get server information
+<ul><li>First, make sure that the server is connected to the internet, or at least connected to your router. To test router connectivity, you can try logging into your router via web panel. Usually the router login information is printed on a sticker on the back of the router. If the page loads, great - just make sure the other computers are connected to the same network.</li>
+<li>Windows:
+<ul><li>Open Command Prompt and run "ipconfig" to get information about your network. Record the IP address that appears after "IPV4 Address......" It should be something like 192.168.1.27, 172.16.0.55 10.0.0.42. This is the IP address you will use for joining on terraria. If the IP address starts with 127, look for one that doesn't. If it starts with 169, you're doing something wrong.</li></ul></li>
+<li>MacOS:
+<ul><li>Open System Preferences &gt; Network and record the IP Address. See above for what the IP should look like.</li></ul></li>
+<li>GNU/Linux:
+<ul><li>Run "ifconfig" or "ip a" from a terminal window to get your local IP. See above for what the IP should look like.</li></ul></li></ul></li>
+<li>Connect the clients to the server
+<ul><li>Open Terraria, click multiplayer, and connect to the IP address that you recorded from the second step.</li>
+<li>You should be connected to the server!</li></ul></li>
+<li>Troubleshooting (if something doesn't work)
+<ul><li>Make sure that the firewall on the computer running the server is disabled, or at least allows traffic through on port 7777. Be sure to re-enable the firewall once again when you have the chance.</li>
+<li>If your local IP address does start with 169, you should check your network settings to get connected to the internet.</li>
+<li>The IP of the server may change, especially if the router restarts. If you are unable to connect to the server, go through step 2 once again to see if the IP has changed.
+<ul><li>If this becomes a recurring problem, you should look up "setting a static IP on (OS Name)", where OS Name is the name of the server's operating system.</li></ul></li>
+<li>If you set the port of the Terraria server to something other than the default of 7777, make sure that the clients are connecting to whatever port the server is configured to use.</li></ul></li></ol>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Server&amp;veaction=edit&amp;section=16" class="mw-editsection-visualeditor" title="Edit section: History">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Server&amp;action=edit&amp;section=16" title="Edit section: History">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="history-header" id="history_desktop"><a href="/Desktop_Version_history" title="Desktop version"><img alt="Desktop version" src="https://gamepedia.cursecdn.com/terraria_gamepedia/7/72/Desktop_only.png?version=84879542d584624d29ffdb5c0249a609" decoding="async" width="20" height="15" /></a><a href="/Desktop_Version_history" title="Desktop Version history">&#160;Desktop version</a></div>
+<ul><li><span id="history_Desktop_1.4.0.1"><b><a href="/Desktop_1.4.0.1" class="mw-redirect" title="Desktop 1.4.0.1">Desktop 1.4.0.1</a></b></span>&#58;&#32;
+<ul><li>New difficulty values: 2 for master mode, 3 for journey mode.</li>
+<li>A bunch of configuration file options have been added for controlling journey mode power permissions.</li></ul></li></ul>
+<ul><li><span id="history_Desktop_1.3.0.4"><b><a href="/Desktop_1.3.0.4" class="mw-redirect" title="Desktop 1.3.0.4">Desktop 1.3.0.4</a></b></span>&#58;&#32;
+<ul><li>Dedicated servers can now be launched with -forcepriority to override server settings file's process priority.</li>
+<li>Dedicated server can now use -ip again to set their local IP address.</li></ul></li></ul>
+<ul><li><span id="history_Desktop_1.3.0.3"><b><a href="/Desktop_1.3.0.3" class="mw-redirect" title="Desktop 1.3.0.3">Desktop 1.3.0.3</a></b></span>&#58;&#32;You should now have an easier time reporting errors if they happen on a server.</li></ul>
+<ul><li><span id="history_Desktop_1.3.0.2"><b><a href="/Desktop_1.3.0.2" class="mw-redirect" title="Desktop 1.3.0.2">Desktop 1.3.0.2</a></b></span>&#58;&#32;
+<ul><li>You will now be able to enter the password every time when entering or creating a server.</li>
+<li>Many issues with the dedicated server and its configurations have been resolved.</li>
+<li>Fixed an issue where users would be unable to invite each other when in "Invite Only" mode.</li></ul></li></ul>
+<ul><li><span id="history_Desktop_1.2.3.1"><b><a href="/Desktop_1.2.3.1" class="mw-redirect" title="Desktop 1.2.3.1">Desktop 1.2.3.1</a></b></span>&#58;&#32;Fixed crashes when starting the dedicated server in a language other than English.</li></ul>
+<ul><li><span id="history_Desktop_1.0.2"><b><a href="/Desktop_1.0.2" class="mw-redirect" title="Desktop 1.0.2">Desktop 1.0.2</a></b></span>&#58;&#32;
+<ul><li>Servers now listen to all IP addresses on the hosting PC, regardless of how many network connections are active.</li>
+<li>Typing "localhost" instead of your own local IP address will connect to your own same-PC server.</li>
+<li>Game default port changed from 31337 to 7777.</li>
+<li>Client will now resolve a hostname into its IP address, for example, if randomsite.org ran a server, you could type randomsite.org as the IP address and be able to connect.</li></ul></li></ul>
+<ul><li><span id="history_Desktop-Release"><b><a href="/Desktop-Release" class="mw-redirect" title="Desktop-Release">Desktop-Release</a></b></span>&#58;&#32;Introduced.</li></ul>
+<div class="history-header" id="history_console"><a href="/Console_version" title="Console version"><img alt="Console version" src="https://gamepedia.cursecdn.com/terraria_gamepedia/6/6c/Console_only.png?version=82114d10d25ba21fac1dcc32f11a66a1" decoding="async" width="21" height="16" /></a><a href="/Console_version" title="Console version">&#160;Console version</a></div>
+<ul><li><span id="history_Console-Release"><b><a href="/Console-Release" class="mw-redirect" title="Console-Release">Console-Release</a></b></span>&#58;&#32;Introduced.</li></ul>
+<div class="history-header" id="history_mobile"><a href="/Mobile_version" title="Mobile version"><img alt="Mobile version" src="https://gamepedia.cursecdn.com/terraria_gamepedia/b/b2/Mobile_only.png?version=67739f5536fa14ca66b2d7e3001d10d0" decoding="async" width="14" height="20" /></a><a href="/Mobile_version" title="Mobile version">&#160;Mobile version</a></div>
+<ul><li><span id="history_Mobile-Release"><b><a href="/Mobile-Release" class="mw-redirect" title="Mobile-Release">Mobile-Release</a></b></span>&#58;&#32;Introduced.</li></ul>
+<div class="history-header" id="history_3ds"><a href="/3DS_version" title="3DS version"><img alt="3DS version" src="https://gamepedia.cursecdn.com/commons_hydra/8/8d/3DS.svg?version=81f9b6c5a21a1cf0724f0dcd24030b98" decoding="async" width="39" height="11" /></a><a href="/3DS_version" title="3DS version">&#160;<span style="display:none">3DS </span>version</a></div>
+<ul><li><span id="history_3DS-Release"><b><a href="/3DS-Release" class="mw-redirect" title="3DS-Release">3DS-Release</a></b></span>&#58;&#32;Introduced.</li></ul>
+<div class="navbox mw-collapsible"><div class="vde plainlinks"><a target="_blank" rel="noreferrer noopener" class="external text" href="https://terraria.gamepedia.com/Template:Software_navigation/content"><span title="View this template">v</span></a>&#8201;•&#8201;<a target="_blank" rel="noreferrer noopener" class="external text" href="https://terraria.gamepedia.com/Template_talk:Software_navigation/content"><span title="Discuss this template">d</span></a>&#8201;•&#8201;<a target="_blank" rel="noreferrer noopener" class="external text" href="https://terraria.gamepedia.com/index.php?title=Template:Software_navigation/content&amp;action=edit"><span title="Edit this template">e</span></a></div><div class="header"><a href="/Template:Software_navigation" title="Template:Software navigation">Terraria-related software</a></div><div class="content mw-collapsible-content"><div class="dotlist l" style="padding: 0.5em 0; line-height: 2;;"><ul><li><span class="nowrap"><a class="mw-selflink selflink">Servers</a> (<a href="/TShock" title="TShock">TShock</a>)</span></li><li><span class="nowrap"><a href="/Map_viewers" title="Map viewers">Map viewers</a></span></li><li><span class="nowrap"><a href="/Inventory_editors" title="Inventory editors">Inventory editors</a></span></li><li><span class="nowrap"><a href="/Mods" title="Mods">Mods</a></span></li></ul></div></div></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20200524065618
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.441 seconds
+Real time usage: 0.761 seconds
+Preprocessor visited node count: 9571/1000000
+Preprocessor generated node count: 12394/1000000
+Post‐expand include size: 49067/2097152 bytes
+Template argument size: 9359/2097152 bytes
+Highest expansion depth: 16/40
+Expensive parser function count: 0/99
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 1011/5000000 bytes
+ExtLoops count: 0
+Lua time usage: 0.240/7 seconds
+Lua virtual size: 12.21 MB/50 MB
+Lua estimated memory usage: 0 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  701.844      1 -total
+ 73.86%  518.375     34 Template:L10n
+ 70.95%  497.935     23 Template:L10n/register
+ 67.00%  470.217      1 Template:Key
+ 64.44%  452.294      1 Template:Key/l10n
+ 54.90%  385.288     73 Template:GameText
+ 52.54%  368.781     73 Template:Nl2br
+ 26.04%  182.792     10 Template:History
+  7.94%   55.741      1 Template:Desktop_version
+  6.73%   47.237      4 Template:Icon-version/l10n
+-->
+
+<!-- Saved in parser cache with key terraria_gamepedia:pcache:idhash:1385-0!canonical and timestamp 20200524065618 and revision id 1000791
+ -->
+</div></div>						<div class="printfooter">
+							Retrieved from "<a dir="ltr" href="https://terraria.gamepedia.com/index.php?title=Server&amp;oldid=1000791">https://terraria.gamepedia.com/index.php?title=Server&amp;oldid=1000791</a>"						</div>
+						<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Terraria" title="Category:Terraria">Terraria</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/Category:Pages_using_DynamicPageList_dplvar_parser_function" title="Category:Pages using DynamicPageList dplvar parser function">Pages using DynamicPageList dplvar parser function</a></li><li><a href="/Category:Pages_using_DynamicPageList_dplreplace_parser_function" title="Category:Pages using DynamicPageList dplreplace parser function">Pages using DynamicPageList dplreplace parser function</a></li><li><a href="/Category:Pages_using_DynamicPageList_parser_function" title="Category:Pages using DynamicPageList parser function">Pages using DynamicPageList parser function</a></li><li><a href="/Category:Entities_patched_in_Desktop_1.4.0.1" title="Category:Entities patched in Desktop 1.4.0.1">Entities patched in Desktop 1.4.0.1</a></li><li><a href="/Category:Entities_patched_in_Desktop_1.3.0.4" title="Category:Entities patched in Desktop 1.3.0.4">Entities patched in Desktop 1.3.0.4</a></li><li><a href="/Category:Entities_patched_in_Desktop_1.3.0.3" title="Category:Entities patched in Desktop 1.3.0.3">Entities patched in Desktop 1.3.0.3</a></li><li><a href="/Category:Entities_patched_in_Desktop_1.3.0.2" title="Category:Entities patched in Desktop 1.3.0.2">Entities patched in Desktop 1.3.0.2</a></li><li><a href="/Category:Entities_patched_in_Desktop_1.2.3.1" title="Category:Entities patched in Desktop 1.2.3.1">Entities patched in Desktop 1.2.3.1</a></li><li><a href="/Category:Entities_patched_in_Desktop_1.0.2" title="Category:Entities patched in Desktop 1.0.2">Entities patched in Desktop 1.0.2</a></li><li><a href="/Category:Entities_introduced_in_Desktop-Release" title="Category:Entities introduced in Desktop-Release">Entities introduced in Desktop-Release</a></li><li><a href="/Category:Entities_introduced_in_Console-Release" title="Category:Entities introduced in Console-Release">Entities introduced in Console-Release</a></li><li><a href="/Category:Entities_introduced_in_Mobile-Release" title="Category:Entities introduced in Mobile-Release">Entities introduced in Mobile-Release</a></li><li><a href="/Category:Entities_introduced_in_3DS-Release" title="Category:Entities introduced in 3DS-Release">Entities introduced in 3DS-Release</a></li></ul></div></div>					<div class="visualClear"></div>
+									</div>
+								<div id="siderail_terraria_gamepedia">
+					<div id='atfmrec_terraria_gamepedia'><div id='cdm-zone-02'></div></div><div id='middlemrec_terraria_gamepedia'><a href='https://store.steampowered.com/app/656350/UnderMine/?utm_source=GPPromo&utm_medium=Rail&utm_campaign=Undermine'><img src='https://gamepedia.cursecdn.com/commons_hydra/7/71/UnderMine_GoldenCore_SALE.gif'></a></div><div id='btfmrec_terraria_gamepedia'><div id='cdm-zone-06'></div></div>				</div>
+				<div class="visualClear"></div>
+					<div id=btflb><div id='cdm-zone-04'></div></div>			</div>
+			<div id="mw-navigation">
+				<h2>Navigation menu</h2>
+				<div id="mw-head">
+										<div id="left-navigation">
+											<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/Server" title="View the content page [c]" accesskey="c">Page</a></span></li><li id="ca-talk"><span><a href="/Talk:Server" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-sharing" role="navigation" class="vectorMenu" aria-labelledby="p-sharing-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-sharing-label" />
+						<h3 id="p-sharing-label"><span>Share</span></h3>
+						<div class="menu">
+							
+				<div id="socialIconImages">
+					<a href="https://twitter.com/intent/tweet?text=Check+out+Server+on+Terraria+Wiki+--&amp;via=CurseGamepedia&amp;url=https%3A%2F%2Fterraria.gamepedia.com%2FServer" target="_blank"><img src="/extensions/Social/images/social/twitter.svg"/></a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fterraria.gamepedia.com%2FServer" target="_blank"><img src="/extensions/Social/images/social/facebook.svg"/></a><a href="https://www.reddit.com/submit?url=https%3A%2F%2Fterraria.gamepedia.com%2FServer&amp;title=Check+out+Server+on+Terraria+Wiki+via+%40CurseGamepedia%3A+https%3A%2F%2Fterraria.gamepedia.com%2FServer" target="_blank"><img src="/extensions/Social/images/social/reddit.svg"/></a><a href="https://www.tumblr.com/share/link?url=https%3A%2F%2Fterraria.gamepedia.com%2FServer&amp;name=Terraria+Wiki&amp;description=Check+out+Server+on+Terraria+Wiki+via+%3Ca+href%3D%22https%3A%2F%2Ftwitter.com%2FCurseGamepedia%22+target%3D%22_blank%22%3E%40CurseGamepedia%3C%2Fa%3E%3A+https%3A%2F%2Fterraria.gamepedia.com%2FServer" target="_blank"><img src="/extensions/Social/images/social/tumblr.svg"/></a><a href="https://vk.com/share.php?url=https%3A%2F%2Fterraria.gamepedia.com%2FServer" target="_blank"><img src="/extensions/Social/images/social/vk.svg"/></a>
+				</div>
+						</div>
+					</div>
+										</div>
+					<div id="right-navigation">
+											<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/Server">View</a></span></li><li id="ca-ve-edit" class="collapsible"><span><a href="/index.php?title=Server&amp;veaction=edit" title="Edit this page [v]" accesskey="v">Edit</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/index.php?title=Server&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit source</a></span></li><li id="ca-history" class="collapsible"><span><a href="/index.php?title=Server&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Terraria Wiki" title="Search Terraria Wiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+										</div>
+				</div>
+				<div id="mw-panel">
+					<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Terraria_Wiki" title="Visit the main page - Terraria Wiki"></a></div>
+							<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/Terraria_Wiki" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-Projects"><a href="/Terraria_Wiki:Projects">Projects</a></li><li id="n-Wiki-rules"><a href="/Terraria_Wiki:Rules">Wiki rules</a></li><li id="n-Style-guide"><a href="/Terraria_Wiki:Style_Guide">Style guide</a></li><li id="n-Community-noticeboard"><a href="/Terraria_Wiki:Community_noticeboard">Community noticeboard</a></li><li id="n-Admin-noticeboard"><a href="/Terraria_Wiki:Admin_noticeboard">Admin noticeboard</a></li><li id="n-Help"><a href="/Help:Contents">Help</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Guides" aria-labelledby="p-Guides-label">
+			<h3 id="p-Guides-label">Guides</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Getting-started"><a href="/Guide:Getting_started">Getting started</a></li><li id="n-Walkthrough"><a href="/Guide:Walkthrough">Walkthrough</a></li><li id="n-Class-setups"><a href="/Guide:Class_setups">Class setups</a></li><li id="n-Enemy-farming"><a href="/Guide:Enemy_farming">Enemy farming</a></li><li id="n-Crafting-101"><a href="/Guide:Crafting_101">Crafting 101</a></li><li id="n-Mining-techniques"><a href="/Guide:Mining_techniques">Mining techniques</a></li><li id="n-Bases"><a href="/Guide:Bases">Bases</a></li><li id="n-PvP"><a href="/Guide:PvP">PvP</a></li><li id="n-more..."><a href="/Terraria_Wiki:Projects/Guides">more...</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Portals" aria-labelledby="p-Portals-label">
+			<h3 id="p-Portals-label">Portals</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Official-website"><a href="https://www.terraria.org/" rel="nofollow" target="_blank">Official website</a></li><li id="n-Official-forum"><a href="https://forums.terraria.org/index.php?forums/" rel="nofollow" target="_blank">Official forum</a></li><li id="n-Terraria-on-Facebook"><a href="https://www.facebook.com/pages/Terraria/149488785117030" rel="nofollow" target="_blank">Terraria on Facebook</a></li><li id="n-Terraria-Twitter"><a href="https://twitter.com/terraria_logic" rel="nofollow" target="_blank">Terraria Twitter</a></li><li id="n-Terraria-Subreddit"><a href="https://www.reddit.com/r/Terraria/" rel="nofollow" target="_blank">Terraria Subreddit</a></li><li id="n-Wiki-Subreddit"><a href="https://www.reddit.com/r/officialterrariawiki/" rel="nofollow" target="_blank">Wiki Subreddit</a></li><li id="n-Terraria-Discord"><a href="https://discordapp.com/invite/terraria" rel="nofollow" target="_blank">Terraria Discord</a></li><li id="n-Wiki-Discord"><a href="https://discord.gg/zZGmGqk" rel="nofollow" target="_blank">Wiki Discord</a></li><li id="n-Fandom"><a href="https://www.fandom.com/" target="_blank">Fandom</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Gamepedia" aria-labelledby="p-Gamepedia-label">
+			<h3 id="p-Gamepedia-label">Gamepedia</h3>
+			<div class="body">
+								<ul>
+					<li id="n-gamepedia-support"><a href="https://gamepedia.zendesk.com" rel="nofollow" target="_blank">Gamepedia support</a></li><li id="n-bad-ad"><a href="https://community.fandom.com/wiki/Help%3ABad_advertisements" target="_blank">Report a bad ad</a></li><li id="n-gamepedia-help"><a href="https://help.gamepedia.com/">Help Wiki</a></li><li id="n-gamepedia-contact"><a href="https://help.gamepedia.com/How_to_contact_Gamepedia">Contact us</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Server" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Server" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=Server&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=Server&amp;oldid=1000791" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=Server&amp;action=info" title="More information about this page">Page information</a></li><li id="t-cargopagevalueslink"><a href="/index.php?title=Server&amp;action=pagevalues" rel="cargo-pagevalues">Page values</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">View this page in other languages</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-fr"><a href="https://terraria-fr.gamepedia.com/Serveur" title="Serveur – français" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-socialProfiles" aria-labelledby="p-socialProfiles-label">
+			<h3 id="p-socialProfiles-label"></h3>
+			<div class="body">
+				<div class='socialSidebar'>
+						<script type='text/javascript'>
+							document.getElementById('p-socialProfiles').className = 'portal persistent';
+						</script>
+						<div class='socialLink twitter'><a href="https://twitter.com/CurseGamepedia" target="_blank"><img src="/extensions/Social/images/social/twitter.svg" width="32"/></a></div><div class='socialLink facebook'><a href="https://www.facebook.com/CurseGamepedia" target="_blank"><img src="/extensions/Social/images/social/facebook.svg" width="32"/></a></div><div class='socialLink twitch'><a href="https://www.twitch.tv/gamepedia/videos" target="_blank"><img src="/extensions/Social/images/social/twitch.svg" width="32"/></a></div>
+					</div>			</div>
+		</div>
+			<div class="portal" role="navigation" id="p-sitePromos" aria-labelledby="p-sitePromos-label">
+			<h3 id="p-sitePromos-label"></h3>
+			<div class="body">
+				
+				<div class='wikiLinkSidebar'><a href="https://smile.amazon.com/stores/page/9732B6EC-A055-4859-8D64-18F4D931D326"><img src="https://gamepedia.cursecdn.com/commons_hydra/2/2c/TerrariaMerch.png" alt="Click here to visit the Official Terraria Merch store!" title="Click here to visit the Official Terraria Merch store!"/></a>
+<a href="https://discord.gg/terraria"><img src="https://gamepedia.cursecdn.com/commons_hydra/a/a1/Terraria_discord_sidebar.png" alt="Join the Official Terraria Discord server" title="Join the Official Terraria Discord server"/></a>
+</div>
+				<script type='text/javascript'>
+					document.getElementById('p-sitePromos').className = 'portal persistent';
+				</script>			</div>
+		</div>
+					</div>
+			</div>
+						<div id="footer" role="contentinfo">
+								<ul id="footer-info">
+										<li id="footer-info-lastmod"> This page was last edited on 23 May 2020, at 22:00.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="//creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted.<br/>Game content and materials are trademarks and copyrights of their respective publisher and its licensors.  All rights reserved.<br />
+This site is a part of Fandom, Inc. and is not affiliated with the game publisher.</li>
+										</ul>
+									<ul id="footer-places">
+										<li id="footer-places-about"><a href="/Terraria_Wiki:About" title="Terraria Wiki:About">About Terraria Wiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/Terraria_Wiki:General_disclaimer" title="Terraria Wiki:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="https://terraria.gamepedia.com/index.php?title=Server&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+										</ul>
+														<ul id="footer-icons" class="noprint">
+												<li id="footer-copyrightico">
+							<a href="//creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="//i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="CC BY-NC-SA 3.0" width="88" height="31"/></a>						</li>
+													<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/" target="_blank"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a><a href="https://help.gamepedia.com/What_is_Hydra" target="_blank"><img src="/skins/Hydra/images/icons/poweredbyhydra.png" alt="Powered by Hydra" width="88" height="31"/></a>						</li>
+												</ul>
+									<div style="clear: both;"></div>
+			</div>
+		</div>
+		<div id="footer-push"></div>
+	</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.441","walltime":"0.761","ppvisitednodes":{"value":9571,"limit":1000000},"ppgeneratednodes":{"value":12394,"limit":1000000},"postexpandincludesize":{"value":49067,"limit":2097152},"templateargumentsize":{"value":9359,"limit":2097152},"expansiondepth":{"value":16,"limit":40},"expensivefunctioncount":{"value":0,"limit":99},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":1011,"limit":5000000},"timingprofile":["100.00%  701.844      1 -total"," 73.86%  518.375     34 Template:L10n"," 70.95%  497.935     23 Template:L10n/register"," 67.00%  470.217      1 Template:Key"," 64.44%  452.294      1 Template:Key/l10n"," 54.90%  385.288     73 Template:GameText"," 52.54%  368.781     73 Template:Nl2br"," 26.04%  182.792     10 Template:History","  7.94%   55.741      1 Template:Desktop_version","  6.73%   47.237      4 Template:Icon-version/l10n"]},"loops":{"limitreport-count-unlimited":[0]},"scribunto":{"limitreport-timeusage":{"value":"0.240","limit":"7"},"limitreport-virtmemusage":{"value":12804096,"limit":52428800},"limitreport-estmemusage":0},"cachereport":{"timestamp":"20200524065618","ttl":86400,"transientcontent":false}}});});</script>
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,700&amp;display=swap&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+<div id="footer-and-prefooter">
+	<div id="gamepedia-footer">
+		<div class="footer-wrapper-gp">
+			<div class="footer-box footer-logo">
+				<a href="https://www.gamepedia.com">
+					<img src="/skins/Hydra/images/footer/premium-logo-light.svg" class="footer-gp-logo"/>
+				</a>
+			</div>
+			<div class="footer-box footer-social">
+				<ul class="social">
+					<li>
+						<a href="https://www.facebook.com/CurseGamepedia" title="Facebook"><svg width="10" height="21" xmlns="http://www.w3.org/2000/svg"><path d="M9.364531 3.5096969H7.651507c-1.370419 0-1.598822.7261441-1.598822 1.6943364v2.2994565h3.311846l-.342605 3.6307209H6.281088v9.3188503H2.85504v-9.3188503H0V7.5034898h2.85504V4.8409612C2.85504 1.8153604 4.568064 0 7.080499 0c1.142016 0 2.16983.121024 2.512435.121024v3.3886729h-.228403z" fill-rule="evenodd"/></svg></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/CurseGamepedia" title="Twitter"><svg width="23" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M19.822727 4.2972696v.5729693c0 5.8729351-4.518416 12.6053241-12.826471 12.6053241-2.623596 0-4.955681-.7162116-6.996256-2.0053925.437266 0 .728777.1432423 1.166043.1432423 2.040575 0 4.081149-.7162116 5.684458-1.8621501-1.894819 0-3.643883-1.2891809-4.226905-3.151331.291511 0 .583022.1432423.874532.1432423.437266 0 .437266 0 1.020288-.1432423-2.186331-.429727-4.08115-2.2918772-4.08115-4.440512 0 .429727 1.603309.429727 2.332086.5729693C1.603309 5.8729351.874532 4.5837542.874532 3.0080887c0-.8594539.291511-1.5756655.728777-2.2918771 2.18633 2.7216041 5.684458 4.4405119 9.328342 4.7269965-.145756-.4297269-.145756-.7162116-.145756-1.0026962C10.785895 2.0053925 12.82647 0 15.304311 0c1.311798 0 2.477841.429727 3.352373 1.4324232 1.020287-.2864846 1.894819-.5729693 2.769351-1.1459386-.437266 1.1459386-1.166042 1.8621502-1.894819 2.4351195.874532-.1432423 1.894819-.429727 2.623596-.7162116-.728777.8594539-1.457553 1.7189078-2.332085 2.2918771z" fill-rule="evenodd"/></svg></a>
+					</li>
+					<li>
+						<a href="https://youtube.com/CurseEntertainment" title="Youtube"><svg width="24" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M23.8 3.6s-.2-1.7-1-2.4c-.9-1-1.9-1-2.4-1C17 0 12 0 12 0S7 0 3.6.2c-.5.1-1.5.1-2.4 1-.7.7-1 2.4-1 2.4S0 5.5 0 7.5v1.8c0 1.9.2 3.9.2 3.9s.2 1.7 1 2.4c.9 1 2.1.9 2.6 1 1.9.2 8.2.2 8.2.2s5 0 8.4-.3c.5-.1 1.5-.1 2.4-1 .7-.7 1-2.4 1-2.4s.2-1.9.2-3.9V7.4c0-1.9-.2-3.8-.2-3.8zM9.5 11.5V4.8L16 8.2l-6.5 3.3z" fill-rule="evenodd"/></svg></a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-box footer-links mobile-split">
+				<ul>
+					<li>
+						<a href="https://support.gamepedia.com">Support</a>
+					</li>
+					<li>
+						<a href="https://help.gamepedia.com/How_to_contact_Gamepedia">Contact</a>
+					</li>
+					<li>
+						<a href="https://www.gamepedia.com/pro">PRO</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<footer id="curse-footer" role="complimentary" class="show-ads">
+		<div class="footer-wrapper">
+						<div class="footer-box footer-ad">
+				<div class="ad-placement ad-main-med-rect-footer">
+					<div id='cdm-zone-03'></div>				</div>
+			</div>
+						<div class="footer-box footer-logo">
+				<a href="https://www.fandom.com" target="_blank"><img src="/skins/Hydra/images/footer/fandom-logo.svg" /></a>
+			</div>
+			<div class="footer-box footer-properties">
+				<h2>Explore Properties</h2>
+				<ul class="properties mobile-split">
+					<li><a href="https://www.fandom.com">Fandom</a></li>
+					<li><a href="https://www.gamepedia.com">Gamepedia</a></li>
+					<li><a href="https://www.dndbeyond.com">D&amp;D Beyond</a></li>
+					<li><a href="https://www.muthead.com">Muthead</a></li>
+					<li><a href="https://www.futhead.com">Futhead</a></li>
+								</ul>
+			</div>
+			<div class="footer-box footer-social">
+				<h2>Follow Us</h2>
+				<ul class="social">
+					<li><a href="https://www.facebook.com/getfandom" title="Facebook"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="24" viewBox="0 0 11 24"><path d="M10.7 4L8.8 4C7.2 4 6.9 4.9 6.9 6L6.9 8.6 10.7 8.6 10.3 12.8 7.2 12.8 7.2 23.5 3.3 23.5 3.3 12.8 0 12.8 0 8.6 3.3 8.6 3.3 5.6C3.3 2.1 5.2 0 8.1 0 9.4 0 10.6 0.1 11 0.1L11 4 10.7 4Z"/></svg></a></li>
+					<li><a href="https://twitter.com/getfandom" title="Twitter"><svg width="24" height="19" xmlns="http://www.w3.org/2000/svg"><path d="M20.957 4.543v.606c0 6.209-4.777 13.327-13.56 13.327-2.774 0-5.24-.758-7.397-2.12.462 0 .77.15 1.233.15 2.157 0 4.314-.756 6.01-1.968-2.004 0-3.853-1.363-4.47-3.332.309 0 .617.152.925.152.463 0 .463 0 1.079-.152C2.466 10.752.462 8.783.462 6.512c0 .454 1.695.454 2.466.606C1.695 6.209.925 4.846.925 3.18c0-.908.308-1.666.77-2.423 2.311 2.878 6.01 4.695 9.862 4.998-.154-.455-.154-.758-.154-1.06C11.403 2.12 13.56 0 16.18 0c1.387 0 2.62.454 3.544 1.514 1.079-.302 2.004-.605 2.928-1.211-.462 1.211-1.233 1.969-2.003 2.574a14.785 14.785 0 0 0 2.774-.757c-.77.909-1.541 1.817-2.466 2.423z" fill-rule="evenodd"/></svg></a></li>
+					<li><a href="https://www.youtube.com/fandomentertainment" title="Youtube"><svg width="24" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M23.8 3.6s-.2-1.7-1-2.4c-.9-1-1.9-1-2.4-1C17 0 12 0 12 0S7 0 3.6.2c-.5.1-1.5.1-2.4 1-.7.7-1 2.4-1 2.4S0 5.5 0 7.5v1.8c0 1.9.2 3.9.2 3.9s.2 1.7 1 2.4c.9 1 2.1.9 2.6 1 1.9.2 8.2.2 8.2.2s5 0 8.4-.3c.5-.1 1.5-.1 2.4-1 .7-.7 1-2.4 1-2.4s.2-1.9.2-3.9V7.4c0-1.9-.2-3.8-.2-3.8zM9.5 11.5V4.8L16 8.2l-6.5 3.3z" fill-rule="evenodd" /></svg></a></li>
+					<li><a href="https://www.instagram.com/getfandom/" title="Instagram"><svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M17.510373 0H2.406639C1.078838 0 0 1.0788382 0 2.3236515v15.1867219c0 1.3278009 1.078838 2.406639 2.406639 2.406639h15.186722C18.921162 19.9170124 20 18.8381743 20 17.593361V2.3236515C19.917012 1.0788382 18.838174 0 17.510373 0zm-2.572614 2.4896266h1.659751c.497926 0 .829876.3319502.829876.8298755v1.659751c0 .4979253-.33195.8298755-.829876.8298755h-1.659751c-.497925 0-.829875-.3319502-.829875-.8298755v-1.659751c0-.4979253.33195-.8298755.829875-.8298755zM9.958506 6.1410788c2.074689 0 3.817428 1.7427386 3.817428 3.8174274s-1.742739 3.8174274-3.817428 3.8174274c-2.074689 0-3.817427-1.7427386-3.817427-3.8174274s1.742738-3.8174274 3.817427-3.8174274zm6.639004 11.2863071H3.319502c-.497925 0-.829875-.3319502-.829875-.8298755V8.2987552h1.659751c-.248963.9128631-.331951 1.9917012-.082988 2.9875519.497925 2.3236514 2.406639 4.1493775 4.73029 4.5643153 3.900415.746888 7.302905-2.1576763 7.302905-5.8921162 0-.5809128-.165975-1.1618257-.248963-1.659751h1.659751v8.2987552c-.082987.4979253-.414937.8298755-.912863.8298755z" fill-rule="evenodd" /></svg></a></li>
+					<li><a href="https://www.linkedin.com/company/fandomwikia/" title="LinkedIn"><svg width="19" height="19" xmlns="http://www.w3.org/2000/svg"><path d="M3.859375 19h-3.5625V5.9375h3.5625V19zM2.078125 4.43175C.931 4.43175 0 3.493625 0 2.337S.931.24225 2.078125.24225 4.15625 1.180375 4.15625 2.337s-.929812 2.09475-2.078125 2.09475zM18.109375 19h-3.5625v-6.65475c0-3.9995-4.75-3.6966875-4.75 0V19h-3.5625V5.9375h3.5625v2.0959375c1.65775-3.070875 8.3125-3.2976875 8.3125 2.94025V19z" fill-rule="nonzero" /></svg></a></li>
+				</ul>
+			</div>
+			<div class="footer-box footer-overview">
+				<h2>Overview</h2>
+				<ul class="mobile-split">
+					<li><a href="https://www.fandom.com/about">About</a></li>
+					<li><a href="https://www.fandom.com/careers">Careers</a></li>
+					<li><a href="https://www.fandom.com/press">Press</a></li>
+					<li><a href="https://www.fandom.com/about#contact">Contact Us</a></li>
+					<li><a href="https://www.fandom.com/terms-of-use">Terms of Use</a></li>
+					<li><a href="https://www.fandom.com/privacy-policy">Privacy Policy</a></li>
+				</ul>
+			</div>
+			<div class="footer-box footer-community">
+				<h2>Community</h2>
+				<ul class="mobile-split">
+					<li><a href="https://community.fandom.com/wiki/Community_Central">Community Central</a></li>
+					<li><a href="https://fandom.zendesk.com/hc/en-us">Support</a></li>
+					<li><a href="https://community.fandom.com/wiki/Help:Contents">Help</a></li>
+					<li><a href="https://www.gamepedia.com/do-not-sell-my-info">Do Not Sell My Info</a></li>
+				</ul>
+			</div>
+			<div class="footer-box footer-advertise">
+				<h2>Advertise</h2>
+				<ul class="mobile-split">
+					<li><a href="https://www.fandom.com/mediakit">Media Kit</a></li>
+					<li><a href="https://www.fandom.com/mediakit#contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-post">
+			Terraria Wiki is a Fandom Gaming Community.			<hr />
+			<span class="footer-post-mobile"><a href="https://terraria.gamepedia.com/index.php?title=Server&amp;mobileaction=toggle_view_mobile">View Mobile Site</a></span>
+		</div>
+	</footer>
+</div>
+
+<!-- Begin comScore -->
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6035118" });
+(function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript>
+<img src="https://sb.scorecardresearch.com/p?c1=2&c2=6035118&cv=2.0&cj=1" alt="Tracking Pixel"/>
+</noscript>
+<!-- End comScore -->
+
+<!-- Begin Nielsen -->
+<script type="text/javascript">
+(function () {
+	var d = new Image(1, 1);
+	d.onerror = d.onload = function () {
+		d.onerror = d.onload = null;
+	};
+	d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603339h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+})();
+</script>
+<noscript>
+<div><img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603339h&cg=0&cc=1&ts=noscript" width="1" height="1" alt="" /></div>
+</noscript>
+<!-- End Nielsen --><div id='cdm-zone-end'></div><!-- Start PubMP -->
+<script type="text/javascript" src="//ads.pubmatic.com/AdServer/js/showad.js#PIX&ptask=DSP&SPug=1"></script> 
+<!-- End PubMP -->
+			<script type="text/javascript">
+				window.genreCategory = 'Sandbox';
+				window.wikiTags = ["2d","action","adventure","android","game:terraria","ios","pc","ps3","ps4","ps vita","xbox 360","xbox one"];
+			</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":80});});</script>
+	</body>
+</html>
+		
