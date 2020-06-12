@@ -1,0 +1,629 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+ <head> 
+  <title>SCP-028 - SCP Foundation</title> 
+  <script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script> 
+  <script type="text/javascript">
+googletag.cmd.push(function() {
+    // DEFINE DFP SLOTS
+googletag.defineSlot('/1030917/wikidot_free_sites_bottom_300x250', [300, 250], 'div-gpt-ad-1410946564449-0').addService(googletag.pubads());
+
+// googletag.pubads().enableSingleRequest();
+googletag.pubads().collapseEmptyDivs(true, true);
+googletag.pubads().setTargeting("w_name", "scp-wiki");
+googletag.pubads().setTargeting("w_domain", "net.scp-wiki.www");
+googletag.pubads().setTargeting("w_verified", "true");
+if(null){googletag.pubads().setTargeting("w_cats", null);}
+if(true){googletag.pubads().setTargeting("w_mn", "true");}
+googletag.enableServices();
+});
+</script> 
+  <script type="text/javascript" src="http://www.wikidot.com/default__flow/login__CustomDomainScript?site_id=66711"></script> 
+  <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--javascript/init.combined.js"></script> 
+  <script type="text/javascript">
+        var URL_HOST = 'www.wikidot.com';
+        var URL_DOMAIN = 'wikidot.com';
+        var USE_SSL =  true ;
+        var URL_STATIC = 'http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9';
+        // global request information
+        
+        var WIKIREQUEST = {};
+        WIKIREQUEST.info = {};
+        
+        WIKIREQUEST.info.domain = "www.scp-wiki.net";
+        WIKIREQUEST.info.siteId = 66711;
+        WIKIREQUEST.info.siteUnixName = "scp-wiki";
+        WIKIREQUEST.info.categoryId = 366566;
+        WIKIREQUEST.info.themeId = 1;
+        WIKIREQUEST.info.requestPageName = "scp-028";
+        OZONE.request.timestamp = 1590831745;
+        OZONE.request.date = new Date();
+        WIKIREQUEST.info.lang = 'en';
+                WIKIREQUEST.info.pageUnixName = "scp-028";
+        WIKIREQUEST.info.pageId = 1956725;
+                        WIKIREQUEST.info.lang = "en";
+        OZONE.lang = "en";
+        var isUAMobile = !!/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    </script> 
+  <script type="text/javascript">
+    
+        require.config({
+            baseUrl: URL_STATIC + '/common--javascript',
+            paths: {
+                'jquery.ui': 'jquery-ui.min',
+                'jquery.form': 'jquery.form'
+            }
+        });
+    
+    </script> 
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta http-equiv="content-language" content="en"> 
+  <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--javascript/WIKIDOT.combined.js"></script> 
+  <style type="text/css" id="internal-style">
+        
+        /* modules */
+@import url(http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--modules/css/pagerate/PageRateWidgetModule.css);
+
+
+        
+                
+        /* theme */
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--theme/base/css/style.css);
+                    @import url(http://scp-wiki.wdfiles.com/local--code/component%3Atheme/1);
+            </style> 
+  <link rel="shortcut icon" href="/local--favicon/favicon.gif"> 
+  <link rel="icon" type="image/gif" href="/local--favicon/favicon.gif"> 
+  <link rel="apple-touch-icon" href="/common--images/apple-touch-icon-57x57.png"> 
+  <link rel="apple-touch-icon" sizes="72x72" href="/common--images/apple-touch-icon-72x72.png"> 
+  <link rel="apple-touch-icon" sizes="114x114" href="/common--images/apple-touch-icon-114x114.png"> 
+  <link rel="alternate" type="application/wiki" title="Edit this page" href="javascript:WIKIDOT.page.listeners.editClick()"> 
+  <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-18234656-1']);
+        _gaq.push(['_setDomainName', 'none']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+
+        _gaq.push(['old._setAccount', 'UA-68540-5']);
+        _gaq.push(['old._setDomainName', 'none']);
+        _gaq.push(['old._setAllowLinker', true]);
+        _gaq.push(['old._trackPageview']);
+
+                _gaq.push(['userTracker._setAccount', 'UA-27317769-1']);
+        _gaq.push(['userTracker._trackPageview']);
+            </script> 
+  <script type="text/javascript">
+        window.google_analytics_uacct = 'UA-18234656-1';
+        window.google_analytics_domain_name = 'none';
+    </script> 
+  <link rel="manifest" href="/onesignal/manifest.json"> 
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" acync=""></script> 
+  <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+          OneSignal.init({
+            appId: null,
+          });
+        });
+    </script> 
+  <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--modules/js/list/ListPagesModule.js"></script> 
+  <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--modules/js/pagerate/PageRateWidgetModule.js"></script> 
+ </head> 
+ <body id="html-body"> 
+  <div id="skrollr-body"> <a name="page-top"></a> 
+   <div id="container-wrap-wrap"> 
+    <div id="container-wrap"> 
+     <div id="container"> 
+      <div id="header"> 
+       <h1><a href="/"><span>SCP Foundation</span></a></h1> 
+       <h2><span>Secure, Contain, Protect</span></h2> <!-- google_ad_section_start(weight=ignore) --> 
+       <div id="search-top-box" class="form-search"> 
+        <form id="search-top-box-form" action="dummy" class="input-append"> 
+         <input id="search-top-box-input" class="text empty search-query" type="text" size="15" name="query" value="Search this site" onfocus="if(YAHOO.util.Dom.hasClass(this, 'empty')){YAHOO.util.Dom.removeClass(this,'empty'); this.value='';}">
+         <input class="button btn" type="submit" name="search" value="Search"> 
+        </form> 
+       </div> 
+       <div id="top-bar"> 
+        <div class="top-bar"> 
+         <ul> 
+          <li>SCP Series 
+           <ul> 
+            <li><a href="/scp-series-6">Series VI</a></li> 
+            <li><a href="/scp-series-5">Series V</a></li> 
+            <li><a href="/scp-series-5-tales-edition">» Series V Tales</a></li> 
+            <li><a href="/scp-series-4">Series IV</a></li> 
+            <li><a href="/scp-series-4-tales-edition">» Series IV Tales</a></li> 
+            <li><a href="/scp-series-3">Series III</a></li> 
+            <li><a href="/scp-series-3-tales-edition">» Series III Tales</a></li> 
+            <li><a href="/scp-series-2">Series II</a></li> 
+            <li><a href="/scp-series-2-tales-edition">» Series II Tales</a></li> 
+            <li><a href="/scp-series">Series I</a></li> 
+            <li><a href="/scp-series-1-tales-edition">» Series I Tales</a></li> 
+           </ul> </li> 
+          <li>Tales 
+           <ul> 
+            <li><a href="/foundation-tales">Foundation Tales</a></li> 
+            <li><a href="/series-archive">Series Archive</a></li> 
+            <li><a href="/incident-reports-eye-witness-interviews-and-personal-logs">Incident Reports</a></li> 
+            <li><a href="/creepy-pasta">CreepyPasta Archive</a></li> 
+           </ul> </li> 
+          <li>Library 
+           <ul> 
+            <li><a href="/user-curated-lists">User-Curated Lists</a></li> 
+            <li><a href="/joke-scps">Joke SCPs</a></li> 
+            <li><a href="/joke-scps-tales-edition">» Joke SCPs Tales</a></li> 
+            <li><a href="/scp-ex">Explained SCPs</a></li> 
+            <li><a href="/explained-scps-tales-edition">» Explained SCPs Tales</a></li> 
+            <li><a href="/goi-formats">GoI Formats</a></li> 
+            <li><a href="/audio-adaptations">Audio Adaptations</a></li> 
+            <li><a href="/scp-artwork-hub">SCP Artwork Hub</a></li> 
+            <li><a href="/contest-archive">Contest Archive</a></li> 
+           </ul> </li> 
+          <li>Universe 
+           <ul> 
+            <li><a href="/canon-hub">Canons</a></li> 
+            <li><a href="/groups-of-interest">Groups of Interest</a></li> 
+            <li><a href="/log-of-anomalous-items">Anomalous Items</a></li> 
+            <li><a href="/log-of-extranormal-events">Extranormal Events</a></li> 
+            <li><a href="/log-of-unexplained-locations">Unexplained Locations</a></li> 
+           </ul> </li> 
+          <li>SCP Global 
+           <ul> 
+            <li><a href="http://scp-int.wikidot.com">International Translation Archive</a></li> 
+            <li><a href="http://scp-ru.wikidot.com">Russian Branch(-RU)</a></li> 
+            <li><a href="http://ko.scp-wiki.net/">SCP 재단(-KO)</a></li> 
+            <li><a href="http://scp-wiki-cn.wikidot.com">SCP基金会(-CN)</a></li> 
+            <li><a href="http://fondationscp.wikidot.com">Fondation SCP(-FR)</a></li> 
+            <li><a href="http://scp-wiki.net.pl">SCP Polska Filia(-PL)</a></li> 
+            <li><a href="http://lafundacionscp.wikidot.com">La Fundación SCP(-ES)</a></li> 
+            <li><a href="http://scp-th.wikidot.com">สถาบัน SCP(-TH)</a></li> 
+            <li><a href="http://scp-jp.wikidot.com">SCP財団(-JP)</a></li> 
+            <li><a href="http://scp-wiki-de.wikidot.com">SCP Deutschland(-DE)</a></li> 
+            <li><a href="http://fondazionescp.wikidot.com">Fondazione SCP(-IT)</a></li> 
+            <li><a href="http://scp-ukrainian.wikidot.com">Ukrainian Branch(-UA)</a></li> 
+            <li><a href="http://scp-pt-br.wikidot.com/">Lusófona Branch(-PT/BR)</a></li> 
+            <li><a href="http://scp-cs.wikidot.com">SCP Nadace(-CZ)</a></li> 
+           </ul> </li> 
+          <li>Background 
+           <ul> 
+            <li><a href="/about-the-scp-foundation">About the Foundation</a></li> 
+            <li><a href="/object-classes">Object Classes</a></li> 
+            <li><a href="/personnel-and-character-dossier">Personnel Dossier</a></li> 
+            <li><a href="/security-clearance-levels">Security &amp; Clearance</a></li> 
+            <li><a href="/secure-facilities-locations">Secure Facilities</a></li> 
+            <li><a href="/task-forces">Task Forces</a></li> 
+           </ul> </li> 
+          <li>Info Pages 
+           <ul> 
+            <li><a href="/guide-hub">Guide Hub</a></li> 
+            <li><a href="/usertools">User Tools</a></li> 
+            <li><a href="/tag-search">Tag Search</a></li> 
+            <li><a href="/meet-the-staff">Meet The Staff</a></li> 
+            <li><a href="/criticism-policy">Criticism Policy</a></li> 
+            <li><a href="/licensing-guide">Licensing Guide</a></li> 
+            <li><a href="/image-use-policy">Image Use Policy</a></li> 
+            <li><a href="/chat-guide">Chat Guidelines</a></li> 
+            <li><a href="/deletions-guide">Deletions Guidelines</a></li> 
+            <li><a href="/seminars-hub">Seminars and Workshops</a></li> 
+            <li><a href="/donations-policy">Donations Policy</a></li> 
+            <li><a href="/links">Links</a></li> 
+           </ul> </li> 
+         </ul> 
+        </div> 
+        <div class="mobile-top-bar"> 
+         <div class="open-menu"> 
+          <p><a href="#side-bar">≡</a></p> 
+         </div> 
+         <ul> 
+          <li>SCPs 
+           <ul> 
+            <li><a href="/scp-series-6">Series VI</a></li> 
+            <li><a href="/scp-series-5">Series V</a></li> 
+            <li><a href="/scp-series-5-tales-edition">» Series V Tales</a></li> 
+            <li><a href="/scp-series-4">Series IV</a></li> 
+            <li><a href="/scp-series-4-tales-edition">» Series IV Tales</a></li> 
+            <li><a href="/scp-series-3">Series III</a></li> 
+            <li><a href="/scp-series-3-tales-edition">» Series III Tales</a></li> 
+            <li><a href="/scp-series-2">Series II</a></li> 
+            <li><a href="/scp-series-2-tales-edition">» Series II Tales</a></li> 
+            <li><a href="/scp-series">Series I</a></li> 
+            <li><a href="/scp-series-1-tales-edition">» Series I Tales</a></li> 
+           </ul> </li> 
+          <li>Tales 
+           <ul> 
+            <li><a href="/foundation-tales">Foundation Tales</a></li> 
+            <li><a href="/series-archive">Series Archive</a></li> 
+            <li><a href="/incident-reports-eye-witness-interviews-and-personal-logs">Incident Reports</a></li> 
+            <li><a href="/creepy-pasta">CreepyPasta Archive</a></li> 
+           </ul> </li> 
+          <li>Library 
+           <ul> 
+            <li><a href="/user-curated-lists">User Curated Lists</a></li> 
+            <li><a href="/joke-scps">Joke SCPs</a></li> 
+            <li><a href="/joke-scps-tales-edition">» Joke SCPs Tales</a></li> 
+            <li><a href="/scp-ex">Explained SCPs</a></li> 
+            <li><a href="/explained-scps-tales-edition">» Explained SCPs Tales</a></li> 
+            <li><a href="/goi-formats">GoI Formats</a></li> 
+            <li><a href="/audio-adaptations">Audio Adaptations</a></li> 
+            <li><a href="/scp-artwork-hub">Artwork Hub</a></li> 
+            <li><a href="/contest-archive">Contest Archive</a></li> 
+           </ul> </li> 
+          <li>Universe 
+           <ul> 
+            <li><a href="/canon-hub">Canon Hub</a></li> 
+            <li><a href="/groups-of-interest">GoIs</a></li> 
+            <li><a href="/log-of-anomalous-items">Anomalous Items</a></li> 
+            <li><a href="/log-of-extranormal-events">Extranormal Events</a></li> 
+            <li><a href="/log-of-unexplained-locations">Unexplained Locations</a></li> 
+            <li><a href="/object-classes">Object Classes</a></li> 
+            <li><a href="/personnel-and-character-dossier">Personnel Dossier</a></li> 
+            <li><a href="/security-clearance-levels">Security &amp; Clearance</a></li> 
+            <li><a href="/secure-facilities-locations">Secure Facilities</a></li> 
+            <li><a href="/task-forces">Task Forces</a></li> 
+           </ul> </li> 
+          <li>Guides 
+           <ul> 
+            <li><a href="/guide-hub">Guide Hub</a></li> 
+            <li><a href="/guide-for-newbies">Guide for Newbies</a></li> 
+            <li><a href="/how-to-write-an-scp">How to Write an SCP</a></li> 
+            <li><a href="/image-use-policy">Image Use Policy</a></li> 
+            <li><a href="/chat-guide">Chat Guidelines</a></li> 
+            <li><a href="/faq">FAQ</a></li> 
+            <li><a href="/site-rules">Site Rules</a></li> 
+            <li><a href="/deletions-guide">Deletions Guidelines</a></li> 
+            <li><a href="/criticism-policy">Criticism Policy</a></li> 
+            <li><a href="/seminars-hub">Seminars and Workshops</a></li> 
+            <li><a href="/links">Links</a></li> 
+           </ul> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div id="login-status">
+        <a href="javascript:;" onclick="WIKIDOT.page.listeners.createAccount(event)" class="login-status-create-account btn">Create account</a> <span>or</span> <a href="javascript:;" onclick="WIKIDOT.page.listeners.loginClick(event)" class="login-status-sign-in btn btn-primary">Sign in</a> 
+       </div> 
+       <div id="header-extra-div-1">
+        <span></span>
+       </div>
+       <div id="header-extra-div-2">
+        <span></span>
+       </div>
+       <div id="header-extra-div-3">
+        <span></span>
+       </div> 
+      </div> 
+      <div id="content-wrap"> 
+       <div id="side-bar"> 
+        <div class="side-block" style="background-color: #e5e5ff;"> 
+         <div class="menu-item"> 
+          <div style="text-align: center;">
+           <a href="http://scp-foundation.deviantart.com/"><img src="http://scp-wiki.wdfiles.com/local--files/nav:side/icon-DeviantArt-2020.png" style="width:30px; height:30px;" alt="SCP DeviantArt" class="image"></a><a href="https://www.facebook.com/scpfoundation"><img src="http://scp-wiki.wdfiles.com/local--files/nav:side/icon-Facebook-2020.png" style="width:30px; height:30px;" alt="Facebook" class="image"></a><a href="https://twitter.com/scpwiki"><img src="http://scp-wiki.wdfiles.com/local--files/nav:side/icon-Twitter-2020.png" style="width:30px; height:30px;" alt="Twitter" class="image"></a><a href="http://www.reddit.com/r/SCP"><img src="http://scp-wiki.wdfiles.com/local--files/nav:side/icon-Reddit-2020.png" style="width:30px; height:30px;" alt="Reddit" class="image"></a><a href="http://scp-wiki-official.tumblr.com/"><img src="http://scp-wiki.wdfiles.com/local--files/nav:side/icon-Tumblr-2020.png" style="width:30px; height:30px;" alt="Tumblr" class="image"></a><a href="https://www.instagram.com/scpfoundationwiki/"><img src="http://scp-wiki.wdfiles.com/local--files/nav:side/icon-Instagram-2020.png" style="width:30px; height:30px;" alt="Instagram" class="image"></a>
+          </div> 
+         </div> 
+        </div> 
+        <div style="clear:both; height: 0px; font-size: 1px"></div> 
+        <div class="side-block"> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/home.png" alt="home.png" class="image"><a href="/">Main</a>
+         </div> 
+         <div class="heading"> 
+          <p>SCP by Series</p> 
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/series.png" alt="series.png" class="image"> <a href="/scp-series">I</a> | <a href="/scp-series-2">II</a> | <a href="/scp-series-3">III</a> | <a href="/scp-series-4">IV</a> | <a href="/scp-series-5">V</a> | <a href="/scp-series-6">VI</a>
+         </div> 
+         <div class="heading"> 
+          <p>SCP Tales by Series</p> 
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/series.png" alt="series.png" class="image"> <a href="/scp-series-1-tales-edition">I</a> | <a href="/scp-series-2-tales-edition">II</a> | <a href="/scp-series-3-tales-edition">III</a> | <a href="/scp-series-4-tales-edition">IV</a> | <a href="/scp-series-5-tales-edition">V</a>
+         </div> 
+         <div class="heading"> 
+          <p>SCP Library</p> 
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/series.png" alt="series.png" class="image"><a href="/foundation-tales">Tales</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/series.png" alt="series.png" class="image"><a href="/canon-hub">Canons</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/series.png" alt="series.png" class="image"><a href="/scp-international">International SCP Hub</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/series.png" alt="series.png" class="image"><a href="/goi-formats">GoI Formats</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/series.png" alt="series.png" class="image"><a href="/scp-ex">Explained SCPs</a>
+         </div> 
+         <div class="heading"> 
+          <p>Discover Content</p> 
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/default.png" alt="default.png" class="image"><a href="/top-rated-pages-this-month">Top Rated New Pages</a>
+         </div> 
+         <div class="menu-item sub-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/default.png" alt="default.png" class="image"><a href="/new-pages-feed">Newly Created Pages</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/main.png" alt="main.png" class="image"><a href="/random:random-scp">Random SCP</a> | <a href="/random:random-tale">Tale</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/main.png" alt="main.png" class="image"><a href="/system:recent-changes">Recent Changes</a> | <a href="http://www.scp-wiki.net/most-recently-edited">Edits</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/default.png" alt="default.png" class="image"><a href="/lowest-rated-pages">Lowest Rated Pages</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/main.png" alt="main.png" class="image"><a href="/guide-hub">Guides &amp; Essays</a>
+         </div> 
+         <div class="menu-item sub-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/default.png" alt="default.png" class="image"><a href="/contribute">Contribute</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/main.png" alt="main.png" class="image"><a href="http://www.scp-wiki.net/young-and-under-30">Underread &amp; Underrated</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/main.png" alt="main.png" class="image"><a href="/seminars-hub">Seminars &amp; Workshops</a>
+         </div> 
+         <div class="heading"> 
+          <p>SCP Community</p> 
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/help.png" alt="help.png" class="image"><a href="/site-rules">Site Rules</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/main.png" alt="main.png" class="image"><a href="/system:join">Join the Site!</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/forum.png" alt="forum.png" class="image"><a href="/forum:start">Forum</a> | <a href="/forum:recent-posts">New Posts</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/forum.png" alt="forum.png" class="image"><a href="/chat-guide">Chat With Us!</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/default.png" alt="default.png" class="image"><a href="/authors-pages">Authors' Pages</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/main.png" alt="main.png" class="image"><a href="/news">Site News Hub</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/default.png" alt="default.png" class="image"><a href="http://05command.wikidot.com/staff-policy-hub">Policy Hub</a>
+         </div> 
+        </div> 
+        <div style="clear:both; height: 0px; font-size: 1px"></div> 
+        <div class="side-block" style="background-color: #fff0f0;"> 
+         <div class="heading"> 
+          <p>User Resources</p> 
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/help.png" alt="help.png" class="image"><a href="/how-to-write-an-scp">How to Write an SCP</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/default.png" alt="default.png" class="image"><a href="/tag-search">Tag Search</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/default.png" alt="default.png" class="image"><a href="/usertools">User Tools</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/default.png" alt="default.png" class="image"><a href="http://www.wikidot.com/doc:start">Wiki Syntax</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/default.png" alt="default.png" class="image"><a href="/sandbox">Sandbox</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/main.png" alt="main.png" class="image"><a href="http://05command.wikidot.com">Staff Site</a>
+         </div> 
+         <div class="menu-item">
+          <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/help.png" alt="help.png" class="image"><a href="/contact-staff">Contact Staff</a>
+         </div> 
+        </div> 
+        <div style="clear:both; height: 0px; font-size: 1px"></div> <a class="close-menu" href="#"><br> <img src="http://scp-wiki.wdfiles.com/local--files/nav:side/black.png" style="z-index:-1; opacity: 0.3;" alt="black.png" class="image"><br></a> 
+        <div class="scpnet-interwiki-wrapper">
+         <div class="list-pages-box"> 
+          <div class="list-pages-item"> 
+           <p><iframe src="http://interwiki.scpdb.org/?wiki=scp-wiki&amp;lang=en&amp;page=_default:scp-028" align="" frameborder="" height="" scrolling="" width="" class="scpnet-interwiki-frame" style=""></iframe></p> 
+          </div> 
+         </div>
+        </div> 
+       </div> <!-- google_ad_section_end --> 
+       <div id="main-content"> 
+        <div id="action-area-top"></div> 
+        <div id="page-title">
+          SCP-028 
+        </div> 
+        <div id="page-content"> 
+         <div style="text-align: right;">
+          <div class="page-rate-widget-box">
+           <span class="rate-points">rating:&nbsp;<span class="number prw54353">+964</span></span><span class="rateup btn btn-default"><a title="I like it" href="javascript:;" onclick="WIKIDOT.modules.PageRateWidgetModule.listeners.rate(event, 1)">+</a></span><span class="ratedown btn btn-default"><a title="I don't like it" href="javascript:;" onclick="WIKIDOT.modules.PageRateWidgetModule.listeners.rate(event, -1)">–</a></span><span class="cancel btn btn-default"><a title="Cancel my vote" href="javascript:;" onclick="WIKIDOT.modules.PageRateWidgetModule.listeners.cancelVote(event)">x</a></span>
+          </div>
+         </div> 
+         <p><strong>Item #:</strong> SCP-028</p> 
+         <p><strong>Object Class:</strong> Safe</p> 
+         <p><strong>Special Containment Procedures:</strong> No special means are needed to contain at this time, as SCP-028 has not shown any change in size, position or shape during the entire period of its containment, but access must be restricted. Currently, SCP-028 is contained on site (Site █), as SCP-028 is not transportable by any known means. SCP-028 is sealed in a six (6) by six (6) by three (3) meter (twenty (20) by twenty (20) by ten (10) foot) concrete room with a single door, with two (2) armed personnel stationed outside. Only authorized personnel are to be allowed exposure to SCP-028, and extreme care must be taken at all times. While SCP-028 is itself harmless, the effect can be very damaging to the unprepared. (See document EL-028-1125)</p> 
+         <p><strong>Description:</strong> SCP-028 is located in an abandoned storage yard outside a copper mine in northern Michigan. SCP-028 has no detectable physical presence of any kind, but its effect occurs in a 2.1 meter (7 foot) cube around what is commonly held as the “center” of SCP-028. All forms of scanning and testing in the area of SCP-028 have shown no abnormal readings. Adding or removing objects, or attempting to remove dirt from under SCP-028 has no effect in altering the size or shape of SCP-028’s area of effect, nor the onset or quality of the Effect.</p> 
+         <p>Subjects “entering” SCP-028 are, within three (3) to six (6) seconds, struck by total and complete knowledge of a subject. This knowledge is thus far completely random in both size and usefulness, and sometimes goes unnoticed for extended periods of time. More “profound” knowledge generally has a stronger effect, with some cases [EXPUNGED: SEE DOCUMENT EL-028-1125]. This Effect can be experienced multiple times by exiting and re-entering SCP-028, but can result in increasingly strong migraines and dizziness after two (2) exposures.</p> 
+         <p>SCP-028 came to the Foundation’s attention after research into news reports of a local miner who submitted a design for a cold-fusion reactor to the US patent office. Mr. ███ reported that it “just came to me, like a bolt outta the blue!” News and subjects were suppressed and contained after discovery of SCP-028, and the reactor designs implemented in the containment of <a href="/scp-1995">SCP-1995</a>. Subsequent testing of SCP-028 has yielded mixed results.</p> 
+         <p><strong>Document #EL-028-1114:</strong> Partial Information Retrieval Log for 1/5/██ (Note: all knowledge is perfect, total, and eidetic)</p> 
+         <ul> 
+          <li>Every phonebook entry for New York City in 1998</li> 
+         </ul> 
+         <ul> 
+          <li>How to redesign the internal combustion engine to run on human blood, using only pre-existing parts. (Note: Full redesign takes four (4) hours, and runs at higher efficiency than gasoline.)</li> 
+         </ul> 
+         <ul> 
+          <li>Location of keys for a Buick LeSabre</li> 
+         </ul> 
+         <ul> 
+          <li>The proper method of care for a mole rat colony</li> 
+         </ul> 
+         <ul> 
+          <li>Origin and history of twelve SCP objects. (Note: The main [EXPUNGED])</li> 
+         </ul> 
+         <ul> 
+          <li>Family history of the Blackthorn family, located in London, England.</li> 
+         </ul> 
+         <ul> 
+          <li>Geological structure of the earth beneath Greenland, including several unknown caves and [EXPUNGED]</li> 
+         </ul> 
+         <p><strong>Document # EL-028-1125:</strong> Log</p> 
+         <p><strong>E-112:</strong> Subject D-1182 exposed to SCP-028. Subject began to cry and went into fetal position, showing signs of high distress. Unresponsive to questioning and outside stimulus for several days. Lapsed into catatonia shortly after stating that “this is not life”. Subject passed into a coma and died shortly thereafter. C.O.D. was attributed to shock.</p> 
+         <p><strong>E-127:</strong> Agent ███████ accidentally exposed to SCP-028. Agent showed signs of sudden surprise and bemusement. When questioned, Agent requested “a moment to gather my thoughts, please”. After several seconds, Agent laughed, shook his head, and removed his service pistol from its holster. Agent then shot and wounded Dr. ████, and killed Agents ████████ and █████, before being restrained. Post-incident interrogation revealed Agent ███████ had extensive knowledge of classified Foundation activities, and several SCP objects he had not been previously exposed to, including <a href="/scp-2669">SCP-2669</a>.</p> 
+         <p>Any Foundation personnel found to have entered SCP-028's area of effect are to be detained indefinitely.</p> 
+         <p><strong>Document # EL-028-1128:</strong> Log</p> 
+         <p><strong>Experiment-189:</strong> Subject D-9843 was exposed to SCP-028. ████/03/19&nbsp;11:46</p> 
+         <p>Examination of subject revealed abnormal respiratory actions. ████/03/19&nbsp;13:37</p> 
+         <p>Questioning revealed subject had learned to recycle the carbon dioxide inside his body. ████/03/19&nbsp;17:21</p> 
+         <p>Repeated attempts to teach skill to other D-class personnel failed. ████/03/24&nbsp;12:11</p> 
+         <p>Subject terminated. ████/07/18&nbsp;15:03</p> 
+         <p>Autopsy reveals no abnormal organ formations. ████/07/18&nbsp;18:37</p> 
+         <p>Researchers notes: Dr. ████████ █████: <em>Seriously, how the hell did he do that?</em></p> 
+         <div class="footer-wikiwalk-nav"> 
+          <div style="text-align: center;"> 
+           <p>« <a href="/scp-027">SCP-027</a> | SCP-028 | <a href="/scp-029">SCP-029</a> »</p> 
+          </div> 
+         </div> 
+        </div> <!-- wikidot_bottom_300x250 --> 
+        <div id="div-gpt-ad-1410946564449-0" style="display: none" class="wd-adunit wd-adunit-dfp wd-adunit-below_content"> 
+         <script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1410946564449-0'); });
+</script> 
+        </div> 
+        <div class="page-tags"> <span> <a href="/system:page-tags/tag/event-featured#pages">event-featured</a><a href="/system:page-tags/tag/knowledge#pages">knowledge</a><a href="/system:page-tags/tag/location#pages">location</a><a href="/system:page-tags/tag/mind-affecting#pages">mind-affecting</a><a href="/system:page-tags/tag/safe#pages">safe</a><a href="/system:page-tags/tag/scp#pages">scp</a> </span> 
+        </div> 
+        <div id="page-info-break"></div> 
+        <div id="page-options-container"> 
+         <div id="page-info">
+          page revision: 38, last edited: <span class="odate time_1587781521 format_%25e%20%25b%20%25Y%2C%20%25H%3A%25M%20%28%25O%20ago%29">25 Apr 2020 02:25</span>
+         </div> 
+         <div id="page-options-bottom" class="page-options-bottom"> <a href="javascript:;" class="btn btn-default" id="edit-button">Edit</a> <a href="javascript:;" class="btn btn-default" id="pagerate-button">Rate (<span id="prw54355">+964</span>)</a> <a href="javascript:;" class="btn btn-default" id="tags-button">Tags</a> <a href="/forum/t-77798/scp-028" class="btn btn-default" id="discuss-button">Discuss (72)</a> <a href="javascript:;" class="btn btn-default" id="history-button">History</a> <a href="javascript:;" class="btn btn-default" id="files-button">Files</a> <a href="javascript:;" class="btn btn-default" id="print-button">Print</a> <a href="javascript:;" class="btn btn-default" id="site-tools-button">Site tools</a> <a href="javascript:;" class="btn btn-default" id="more-options-button">+&nbsp;Options</a> 
+         </div> 
+         <div id="page-options-bottom-2" class="page-options-bottom form-actions" style="display:none"> <a href="javascript:;" class="btn btn-default" id="edit-sections-button">Edit Sections</a> <a href="javascript:;" class="btn btn-default" id="edit-append-button">Append</a> <a href="javascript:;" class="btn btn-default" id="edit-meta-button">Edit Meta</a> <a href="javascript:;" class="btn btn-default" id="watchers-button">Watchers</a> <a href="javascript:;" class="btn btn-default" id="backlinks-button">Backlinks</a> <a href="javascript:;" class="btn btn-default" id="view-source-button">Page Source</a> <a href="javascript:;" class="btn btn-default" id="parent-page-button">Parent</a> <a href="javascript:;" class="btn btn-default" id="page-block-button">Lock Page</a> <a href="javascript:;" class="btn btn-default" id="rename-move-button">Rename</a> <a href="javascript:;" class="btn btn-default" id="delete-button">Delete</a> 
+         </div> 
+         <div id="page-options-area-bottom"> 
+         </div> 
+        </div> 
+        <div id="action-area" style="display: none;"></div> 
+       </div> 
+      </div> 
+      <div id="footer" style="display: block; visibility: visible;"> 
+       <div class="options" style="display: block; visibility: visible;"> <a href="http://www.wikidot.com/doc" id="wikidot-help-button">Help</a> &nbsp;| <a href="http://www.wikidot.com/legal:terms-of-service" id="wikidot-tos-button">Terms of Service</a> &nbsp;| <a href="http://www.wikidot.com/legal:privacy-policy" id="wikidot-privacy-button">Privacy</a> &nbsp;| <a href="javascript:;" id="bug-report-button" onclick="WIKIDOT.page.listeners.pageBugReport(event)">Report a bug</a> &nbsp;| <a href="javascript:;" id="abuse-report-button" onclick="WIKIDOT.page.listeners.flagPageObjectionable(event)">Flag as objectionable</a> 
+       </div> Powered by <a href="http://www.wikidot.com">Wikidot.com</a> 
+      </div> 
+      <div id="license-area" class="license-area">
+        Unless otherwise stated, the content of this page is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License</a> 
+      </div> 
+      <div id="extrac-div-1">
+       <span></span>
+      </div>
+      <div id="extrac-div-2">
+       <span></span>
+      </div>
+      <div id="extrac-div-3">
+       <span></span>
+      </div> 
+      <div id="footer-bar"> 
+       <div> 
+       </div> 
+       <h2>Other interesting sites</h2> 
+       <div class="units"> 
+        <div class="unit"> 
+         <div class="inner"> <a target="_blank" class="image" href="http://wiki.mundohandball.com"> <img class="thumbnail" alt="" src="http://thumbnails.wdfiles.com/thumbnail/site/wiki.mundohandball.com/80.jpg"> </a> 
+          <h3><a target="_blank" href="http://wiki.mundohandball.com">wikihandball</a></h3> 
+          <div class="desc">
+            La wiki de Mundohandball.com 
+          </div> 
+         </div> 
+        </div> 
+        <div class="unit"> 
+         <div class="inner"> <a target="_blank" class="image" href="http://rsc-wiki.wikidot.com"> <img class="thumbnail" alt="" src="http://thumbnails.wdfiles.com/thumbnail/site/rsc-wiki.wikidot.com/80.jpg"> </a> 
+          <h3><a target="_blank" href="http://rsc-wiki.wikidot.com">RSC Institution</a></h3> 
+          <div class="desc">
+            Research, Secure, Contain 
+          </div> 
+         </div> 
+        </div> 
+        <div class="unit"> 
+         <div class="inner"> <a target="_blank" class="image" href="http://me1065.wikidot.com"> <img class="thumbnail" alt="" src="http://thumbnails.wdfiles.com/thumbnail/site/me1065.wikidot.com/80.jpg"> </a> 
+          <h3><a target="_blank" href="http://me1065.wikidot.com">Thermal Systems</a></h3> 
+          <div class="desc"> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="unit"> 
+         <div class="inner"> <a target="_blank" class="image" href="http://maegica.wikidot.com"> <img class="thumbnail" alt="" src="http://thumbnails.wdfiles.com/thumbnail/site/maegica.wikidot.com/80.jpg"> </a> 
+          <h3><a target="_blank" href="http://maegica.wikidot.com">Maegica Wiki</a></h3> 
+          <div class="desc">
+            Maegica Order In Chaos Online 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> <!-- These extra divs/spans may be used as catch-alls to add extra imagery. --> 
+    <div id="extra-div-1">
+     <span></span>
+    </div>
+    <div id="extra-div-2">
+     <span></span>
+    </div>
+    <div id="extra-div-3">
+     <span></span>
+    </div> 
+    <div id="extra-div-4">
+     <span></span>
+    </div>
+    <div id="extra-div-5">
+     <span></span>
+    </div>
+    <div id="extra-div-6">
+     <span></span>
+    </div> 
+   </div> 
+  </div> 
+  <div id="dummy-ondomready-block" style="display: none;"></div> <!-- Google Analytics load --> 
+  <script type="text/javascript">
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script> <!-- Quantcast --> 
+  <script type="text/javascript">
+    _qoptions={
+        qacct:"p-edL3gsnUjJzw-"
+    };
+    (function() {
+        var qc = document.createElement('script'); qc.type = 'text/javascript'; qc.async = true;
+        qc.src = ('https:' == document.location.protocol ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(qc, s);
+    })();
+    </script> 
+  <noscript> 
+   <img src="http://pixel.quantserve.com/pixel/p-edL3gsnUjJzw-.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"> 
+  </noscript> 
+  <div id="page-options-bottom-tips" style="display: none;"> 
+   <div id="edit-button-hovertip">
+     Click here to edit contents of this page. 
+   </div> 
+  </div> 
+  <div id="page-options-bottom-2-tips" style="display: none;"> 
+   <div id="edit-sections-button-hovertip">
+     Click here to toggle editing of individual sections of the page (if possible). Watch headings for an "edit" link when available. 
+   </div> 
+   <div id="edit-append-button-hovertip">
+     Append content without editing the whol
