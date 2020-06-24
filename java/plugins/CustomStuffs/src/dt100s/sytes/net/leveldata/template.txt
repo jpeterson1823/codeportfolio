@@ -1,2 +1,0 @@
-username1:level
-username2:level
