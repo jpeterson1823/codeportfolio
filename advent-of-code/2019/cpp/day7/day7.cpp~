@@ -11,7 +11,6 @@ int readIntcode(vector<int> intcode);
 
 int main()
 {
-    // Store intcode into vector
     vector<int> intcode = getIntcode();
 
     string phases = "01234";
@@ -33,28 +32,25 @@ int main()
 
 vector<int> getIntcode() 
 {
-    // Get puzzle input via ifstream
     vector<int> puzzleInput = { };
 
     ifstream puzzleInputFile ("7.in");
     string input;
 
-
-    // Get line string from ifstream, then split line by delimiter ',' and adding to vector list.
     if (puzzleInputFile.is_open())
     {
         getline(puzzleInputFile, input);
 
-        int lastIndex = 0;  // Keep track of spot after previous ',', keeping track of the new instruction.
+        int lastIndex = 0;
         for (int i = 0; i < input.length(); i++)
         {
-            if (input[i] == ',')    // Check for delimiter
+            if (input[i] == ',')
             {
-                puzzleInput.push_back(stoi(input.substr(lastIndex, i))); // Add the instruction/value to intcode.
-                lastIndex = i+1;    // Set lastIndex to next number proceeding the current comma.
+                puzzleInput.push_back(stoi(input.substr(lastIndex, i)));
+                lastIndex = i+1;
             }
         }
-        puzzleInput.push_back(stoi(input.substr(lastIndex, input.length())));   // Add final instruction/value to intcode.
+        puzzleInput.push_back(stoi(input.substr(lastIndex, input.length())));
     }
     else printf("Failed to open puzzle input file.\n");
 
@@ -67,7 +63,6 @@ int readIntcode(vector<int> intcode)
     int index = 0;
     while (index < intcode.size())
     {
-        // Get opcode and modes.
         int opcode = intcode[index]%100;
         int modec = intcode[index]/100%10;
         int modeb = intcode[index]/1000%10;
@@ -75,7 +70,6 @@ int readIntcode(vector<int> intcode)
 
         //printf("Opcode: %i\nmodea: %i\nmodeb: %i\nmodec: %i\n", opcode, modea, modeb, modec);
 
-        // Get parameters for processing instruction based on modes a-c.
         int param1, param2, param3;
 
         if (modec == 0) 
@@ -95,61 +89,61 @@ int readIntcode(vector<int> intcode)
 
         //printf("opcode: %i\nparam1: %i\nparam2: %i\nparam3: %i\n", opcode, param1, param2, param3);
 
-        string input;   // Create variable for possible input from user.
+        string input;
         switch (opcode)
         {
-            case 99:    // Exit
+            case 99:
                 index = intcode.size();
                 break;
 
-            case 1:     // Add  
+            case 1:
                 intcode[param3] = param1 + param2;
                 index += 4;
                 break;
 
-            case 2:     // Multiply
+            case 2:
                 intcode[param3] = param1 * param2;
                 index += 4;
                 break;
 
-            case 3:     // Input and store
+            case 3:
                 cout << "Input a value: ";
                 cin >> input;
                 intcode[intcode[index+1]] = stoi(input);
                 index += 2;
                 break;
 
-            case 4:     // Print value at location
+            case 4:
                 cout << "Value: " << intcode[intcode[index+1]] << endl;
+                //output = intcode[intcode[index+1]];
                 index += 2;
                 break;
             
-            case 5:     // Do if true
+            case 5:
                 if (param1 != 0)
                     index = param2;
                 else index += 3;
                 break;
             
-            case 6:     // Do if false
+            case 6:
                 if (param1 == 0)
                     index = param2;
                 else index += 3;
                 break;
             
-            case 7:     // Less than?
+            case 7:
                 if (param1 < param2)
                     intcode[param3] = 1;
                 else intcode[param3] = 0;
                 index += 4;
                 break;
             
-            case 8:     // Equal to?
+            case 8:
                 if (param1 == param2)
                     intcode[param3] = 1;
                 else intcode[param3] = 0;
                 index += 4;
                 break;
-
             default:
                 cout << "Error has occured." << endl;
                 printf("opcode: %i\nparam1: %i\nparam2: %i\nparam3: %i\n", opcode, param1, param2, param3);

@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String args[]) {
 
-        String token = "NzE4MjM3NTU0MTU0OTMwMjE4.Xtl-DQ.m_bTICZguQa0XPv_3xa4vWMopWk";
+        String token = "cannot upload this, get from site when testing...";
         JDA jda = null;
 
         try {
